@@ -222,7 +222,7 @@ def getAnswer(URI,Prop):
 def main():
 	# CSV bestanden initaliseren
 	print("Een ogenblik geduld, de Wikipedia anchors worden geinitaliseerd.")
-	anchorDict,pageDict = createDict('anchor_summary.csv','page.csv')
+	anchorDict,pageDict = createDict('../../anchor_summary.csv','page.csv')
 
 	questions = []
 	data = sys.stdin

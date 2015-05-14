@@ -51,7 +51,7 @@ def getQuestion():
 	return question
 
 def wikidump():
-	with open('anchor_summary.csv', 'r') as f:
+	with open('../../anchor_summary.csv', 'r') as f:
 	    reader = csv.reader(f)
 	    anchor = list(reader)
 

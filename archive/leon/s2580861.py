@@ -50,7 +50,7 @@ def main(question):
         concept, prop = analyzeAlpino(question)
         try:
             # Analyze concept
-            searchResult = csvSearch("anchor_summary.csv", concept)
+            searchResult = csvSearch("../../anchor_summary.csv", concept)
 
             if searchResult is not None:
 
