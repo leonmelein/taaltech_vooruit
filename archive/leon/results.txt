@@ -1,0 +1,2084 @@
+$ python s2580861.py ../../src/examplequestionsFile.txt 
+Aan wie zijn de Brandenburgse Concerten opgedragen?  
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Bij hoeveel platenmaatschappijen zijn Kaiser Chiefs aangesloten geweest?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Bij welk label zit Linkin Park?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Bij welke platenmaatschappijen bracht zanger Seal muziek uit?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Bij welke recordlabels zit Dream Theater?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Binnen welke genres valt de muziek van Arcade Fire?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Het werk van welke artiest is beïnvloed door Queen?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe heet de eerste single van P!nk?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe heet de enige single van de lama's?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Hoe heet de gitarist van Queen?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe heet de officiële website van de band Pearl Jam?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe heet de tweede single die DJ Madeon uitbracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Hoe heet het album van Deadmau5 met de beginletter R?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe heet het debuutalbum van Amon Tobin alias Cujo?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe heet het eerste album van ABBA?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe heet het eerste album van Bob Dylan?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe heet het eerste studioalbum van de popgroep Doe Maar?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe heet het laatste album van Kanye West?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe heet het laatste nummer dat RONDE uitbracht?  
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Hoe heet het muzieklabel van DJ Laidback Luke?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe heten de bandleden van Green Day?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe lang bestonden de Beatles?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Hoe lang duurt het album Love Lockdown in totaal?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe lang duurt het nummer 'Bohemian Rhapsody'?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe luidt de bijnaam van Rihanna?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe oud is André Hazes geworden?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe oud is de fransman Anthony Favier, die onder een andere naam muziek produceert?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Hoe oud is Jimi Hendrix geworden?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe oud is Lou Reed geworden?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe veel albums en EPs heeft Dire Straits uitgebracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe veel nummers heeft Michael Jackson geschreven?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe wordt Eric Clapton ook wel genoemd?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoe ziet de bezetting van The Wombats eruit?
+
+Vraag: Hoe ziet de bezetting van The Wombats eruit?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 1111599 .
+?artist prop-nl:functie ?bandMember . 
+ ?bandMember rdfs:label ?result
+                }
+                
+Antwoord:
+Zanger
+Keyboard
+Gitarist
+
+
+Hoeveel (studio) albums heeft Arcade Fire uitgebracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoeveel albums bracht de band Radiohead uit?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Hoeveel albums heeft Supertramp uitgebracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoeveel albums heeft Tool uitgegeven?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoeveel genres speelde Yoko Ono?
+
+Vraag: Hoeveel genres speelde Yoko Ono?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 29243 .
+?artist prop-nl:genre ?genre . 
+ ?genre rdfs:label ?result
+                }
+                
+Antwoord:
+Dance
+Rock
+Popmuziek
+Elektronische muziek
+Avant-garde
+Fluxus
+
+
+Hoeveel instrumenten kan de bassist van de rockband The Strokes, Nikolai Fraiture, bespelen?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Hoeveel jaren is Creedence Clearwater Revival actief geweest?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoeveel leden heeft Sum 41?  
+
+Vraag: Hoeveel leden heeft Sum 41?  
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 51770 .
+?artist dbpedia-owl:bandMember ?bandMember . 
+ ?bandMember prop-nl:naam ?result
+                }
+                
+Antwoord:
+Deryck Whibley
+Cone McCaslin
+
+
+Hoeveel leden van The Beatles leven nog?
+
+Vraag: Hoeveel leden van The Beatles leven nog?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 1687 .
+?artist dbpedia-owl:bandMember ?bandMember . 
+ ?bandMember prop-nl:naam ?result
+                }
+                
+Antwoord:
+George Harrison
+Paul McCartney
+Richard Starkey, Jr.
+John Lennon
+
+
+Hoeveel nummers stonden er op de CD Motion van Calvin Harris?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoeveel singles heeft Ellie Goulding uitgebracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Hoeveel tracks staan er op het album Perfect Animal?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Hoeveel volumes van de compilatie-CD Vergeten Pareltjes werden er uitgebracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Hoeveel werken produceerde Mozart in 1984?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In wat voor band speelde George Michal?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+In welk dorpje is Guus Meeuwis geboren?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welk jaar begon Marco Borsato zijn muziekcarrière?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welk jaar bracht John Mayer het album Born and Raised uit?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+In welk jaar bracht Michael Bublé zijn eerste album uit?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welk jaar ging de band *NSYNC uit elkaar?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+In welk jaar gingen de Spice Girls uit elkaar?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welk jaar heeft Robbie Williams zijn eerste album uitgebracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welk jaar is de band Imagine Dragons opgericht?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+In welk jaar is de Dijk opgericht?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+In welk jaar is het huidige Nederlandse volkslied ingevoerd?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+In welk jaar is Muse opgericht?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welk jaar is Viva La Vida van Coldplay uitgebracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+In welk jaar kwam het album Master of Puppets uit van Metallica?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+In welk jaar trad de punkgroep Sex Pistols voor het eerst op?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welk jaar verliet Ryan Dusick Maroon 5?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+In welk jaar verscheen het album A Night at the Opera van Queen?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+In welk jaar werd Green Day opgericht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welk jaar werd het eerste album van Muse uitgebracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welk jaar werd Justin Bieber actief?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welk jaar werd The Police opgericht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welk jaar zijn The Beatles opgericht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welk land is Brian Littrel geboren?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+In welk land is Pharrell Williams geboren?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welk land vindt de band Coldplay zijn oorsprong?  
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+In welk land wordt Rock Werchter georganiseerd?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welke band speelt Dave Farrell?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welke band speelt Gerard Joling?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welke band speelt Ilse DeLange?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welke band zat Beyonc%C3%A9?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+In welke band zat Phil Collins?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welke bands heeft John Frusciante gespeeld?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welke bands zit Floor Jansen?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welke genres vallen de nummers van One Direction?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+In welke Nederlandse plaats is Tiësto geboren?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welke stad is Mariah Carey geboren?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+In welke stad zijn The White Stripes opgericht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Met welk album werd Amy Winehouse bekend in het Verenigd Koninkrijk?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Met welk liedje brak Taylor Swift door in Nederland?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Met welke artieste werkte Kelly Clarkson samen in A Moment Like This?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Met welke platenmaatschappijen heeft John Mayer een contract?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Met wie heeft Rihanna samengewerkt tijdens haar carrière?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Met wie trouwde Mariah Carey?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Met wie zong Monteserrat Caballé het nummer Barcelona?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Noem twee albums van de Engelse band Busted?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Onder welk genre valt de band Coldplay?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Onder welk genre valt de muziek van Erik van der Hoff?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Onder welk(e) genre(s) valt de muziek van Jimi Hendrix?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Onder welke labels is er muziek van Queen uitgebracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Onder welke stijl valt de muziek van Bach?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Op welk album van Bob Dylan staat 'Desolation Row'?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Op welk album van de band Coldplay staat The Scientist?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Op welke dag is Michael Jackson overleden?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Op welke datum is Michael Jackson geboren?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Op welke datum is Michael Jackson geboren?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Op welke datum overleed John Denver?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Op welke datum stierf Frank Sinatra?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Op welke formaten is de muziek van The Police uitgebracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Op welke leeftijd stierf de Russische zanger die "I am very glad, because I'm finally returning back home" zong?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Op welke websites kan ik meer informatie vinden over Jay Z?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Sinds wanneer is Spinvis Actief?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Sinds welk jaar is Coldplay actief?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Sinds welk jaar zijn de Backstreet Boys actief?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Tot wat voor groep instrumenten kan een Cello geclassificeerd worden?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Tot welk genre behoort de muziek van Robbie Williams?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Tot welk genre behoort de muziek van Taylor Swift?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Tot welke genres wordt Major Lazer gerekend?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Uit hoeveel ex-leden bestaat de rockband Dire Straits?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Uit hoeveel leden bestaat ABBA?
+
+Vraag: Uit hoeveel leden bestaat ABBA?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 9352 .
+?artist dbpedia-owl:bandMember ?bandMember . 
+ ?bandMember prop-nl:naam ?result
+                }
+                
+Antwoord:
+Agnetha Fältskog
+Benny Andersson
+
+
+Uit hoeveel leden bestaat U2?
+
+Vraag: Uit hoeveel leden bestaat U2?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 6199 .
+?artist dbpedia-owl:bandMember ?bandMember . 
+ ?bandMember prop-nl:naam ?result
+                }
+                
+Antwoord:
+Bono
+Piet Jan-Klaas
+Adam Clayton
+Larry Mullen jr.
+The Edge
+
+
+Uit hoeveel leden bestond Paramore oorspronkelijk?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Uit hoeveel leden bestond The Beatles?
+
+Vraag: Uit hoeveel leden bestond The Beatles?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 1687 .
+?artist dbpedia-owl:bandMember ?bandMember . 
+ ?bandMember prop-nl:naam ?result
+                }
+                
+Antwoord:
+George Harrison
+Paul McCartney
+Richard Starkey, Jr.
+John Lennon
+
+
+Uit hoeveel muziekanten bestaat de band Doe Maar?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Uit welk land komt Architects?  
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Uit welk land komt Disclosure?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Uit welk land komt Fall Out Boy?   
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Uit welk land komt Justin Bieber?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Uit welk land kwam The Who?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Uit welke Amerikaanse Staat komt Britney Spears?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Uit welke leden bestaat The Beatles?
+
+Vraag: Uit welke leden bestaat The Beatles?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 1687 .
+?artist dbpedia-owl:bandMember ?bandMember . 
+ ?bandMember prop-nl:naam ?result
+                }
+                
+Antwoord:
+George Harrison
+Paul McCartney
+Richard Starkey, Jr.
+John Lennon
+
+
+Uit welke stad komt de band The Script?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Uit welke stad komt Mumford And Sons?  
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Van welk genre in Hans Zimmer bekend?
+
+Vraag: Van welk genre in Hans Zimmer bekend?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 260382 .
+?artist prop-nl:genre ?genre . 
+ ?genre rdfs:label ?result
+                }
+                
+Antwoord:
+
+
+Van welke albums schreef Billie Joe Armstrong alle teksten?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Van welke band is Dan Reynolds de zanger?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Van welke band is het nummer Hey Jude?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Van welke bands is Peter Green lid geweest?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Van welke bekende band is Bono de zanger?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Van wie is het album The Dark Side of the Moon?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Van wie is het nummer Billie Jean?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Vanaf welk jaar is Alabama Shakes actief?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Voor hoeveel films heeft John Williams tot nu toe de muziek geschreven?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Voor welke artiesten schreef Lennaert Nijgh liedjes?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Voor welke films heeft Ludovico Einaudi muziek geschreven?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Waar is Afrojack geboren?
+
+Vraag: Waar is Afrojack geboren?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 1973268 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+09-09-1987
+
+
+Waar is Beyonce geboren?
+
+Vraag: Waar is Beyonce geboren?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 113161 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+04-09-1981
+
+
+Waar is Eminem geboren?
+
+Vraag: Waar is Eminem geboren?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 6159 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+17-10-1972
+
+
+Waar is Herman Brood overleden?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Waar komen de Arctic Monkeys vandaan?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Waar komen de Beatles vandaan?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Waar komen de leden van Green Day vandaan?
+
+Vraag: Waar komen de leden van Green Day vandaan?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 80477 .
+?artist dbpedia-owl:bandMember ?bandMember . 
+ ?bandMember prop-nl:naam ?result
+                }
+                
+Antwoord:
+
+
+Waar komt Coldplay orgineel vandaan?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Waar komt de band Muse oorspronkelijk vandaan?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Waar komt de band Pink Floyd vandaan?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Waar origineerde Mastodon?  
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Waar speelden de Beatles voor het eerst?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Waar werd Pearl Jam opgericht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Waar werd The Police opgericht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Waarvoor is de zesde symfonie van Gade geschreven?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wanneeer was het laatste optreden van Doe Maar?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wanneer begon Every Time I Die?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wanneer begon Marco Borsato zijn cariere?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wanneer is Chris Martin geboren?
+
+Vraag: Wanneer is Chris Martin geboren?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 194918 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+02-03-1977
+
+
+Wanneer is de band Fleetwood Mac opgericht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wanneer is de band Nickelback opgericht?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wanneer is het album Cool Kids van Echosmith gereleased?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wanneer is het nummer Bloed, zweet en tranen uitgebracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wanneer is het nummer Mrs. Rbbinson van Paul Simon en Art Garfunkel opgenomen?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wanneer is het platenlabel Spinnin' Records opgericht?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wanneer is Jack White geboren?
+
+Vraag: Wanneer is Jack White geboren?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 458360 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+09-07-1975
+
+
+Wanneer is Jan Smit geboren?
+
+Vraag: Wanneer is Jan Smit geboren?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 50122 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+31-12-1985
+
+
+Wanneer is Johnny Cash overleden?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wanneer is Michael Jackson geboren?
+
+Vraag: Wanneer is Michael Jackson geboren?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 8638 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+29-08-1958
+
+
+Wanneer is Michael Jackson geboren?
+
+Vraag: Wanneer is Michael Jackson geboren?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 8638 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+29-08-1958
+
+
+Wanneer is Mozart geboren en gestorven?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wanneer is Ringo Starr jarig?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wanneer is Robbie Williams geboren?
+
+Vraag: Wanneer is Robbie Williams geboren?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 6141 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+13-02-1974
+
+
+Wanneer is Yann Tiersen geboren?
+
+Vraag: Wanneer is Yann Tiersen geboren?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 150988 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+23-06-1970
+
+
+Wanneer kwam het album "Sticky Fingers" van The Rolling Stones uit?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wanneer kwam het album "Zonder jou" van Jan Smit uit?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wanneer overleed Andre Hazes?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wanneer overleed Elvis Presley?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wanneer overleed Herman Brood?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wanneer overleed Kurt Cobain?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wanneer overleed Micheal Jackson?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wanneer overleed zanger Ray Charles?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wanneer werd de band Oasis actief?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wanneer zijn The Beatles gestopt?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wanneer zijn The Beatles opgericht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat bespeelde Dick Tailor in "The Rolling Stones"?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is Beyonc%C3%A9 haar volledige naam?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is de bijnaam van de Hollandse zanger Frans Duijts?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de bijnaam van Elvis Presley?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de bijnaam van Michael Jackson?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de doodsoorzaak van Kurt Cobain?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de echte naam van Ellie Goulding?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de echte naam van Eminem?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de echte naam van Fink?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de echte naam van Jay Z?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de echte naam van Jett Rebel?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is de echte naam van Martin Garrix?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is de echte naam van Stromae?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de eerste film waarin Nicki Minaj heeft gespeeld?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de eerste single van Muse?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de geboortedatum van Adele?
+
+Vraag: Wat is de geboortedatum van Adele?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 1191929 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+05-05-1988
+
+
+Wat is de geboortedatum van Avril Lavigne?  
+
+Vraag: Wat is de geboortedatum van Avril Lavigne?  
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 58521 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+27-09-1984
+
+
+Wat is de geboortedatum van Beethoven?
+
+Vraag: Wat is de geboortedatum van Beethoven?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 9660 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+17-12-1770
+
+
+Wat is de geboortedatum van Britney Spears?
+
+Vraag: Wat is de geboortedatum van Britney Spears?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 10761 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+02-12-1981
+
+
+Wat is de geboortedatum van Elvis Presley?
+
+Vraag: Wat is de geboortedatum van Elvis Presley?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 1421112 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+08-01-1935
+
+
+Wat is de geboortedatum van Enrique Iglesias?
+
+Vraag: Wat is de geboortedatum van Enrique Iglesias?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 304763 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+08-05-1975
+
+
+Wat is de geboortedatum van John Mayer?
+
+Vraag: Wat is de geboortedatum van John Mayer?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 163667 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+16-10-1977
+
+
+Wat is de geboortedatum van Madonna?
+
+Vraag: Wat is de geboortedatum van Madonna?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 8288 .
+?artist dbpedia-owl:birthDate ?result
+                }
+                
+Antwoord:
+16-08-1958
+
+
+Wat is de geboortenaam van Akon?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de geboortenaam van Madonna?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de geboorteplaats van Guus Meeuwis?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de gehele naam van Boudewijn de Groot?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de lengte van Child in Time van Deep Purple?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is de naam van de eerste single van U2?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de naam van de zangeres die k3 verliet?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is de officiële website van One Direction?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is de site van Rick Astley?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de speelduur van Last of The American Girls?  
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is de titel van de eerste single van The Eagles?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is de volledige naam van Adele?
+
+Vraag: Wat is de volledige naam van Adele?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 1191929 .
+?artist prop-nl:volledigeNaam ?result
+                }
+                
+Antwoord:
+Adele Laurie Blue Adkins
+
+
+Wat is de volledige naam van de artiest Dory Previn?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is de volledige naam van de zangeres Inna?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is de volledige naam van DJ Hardwell?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is de volledige naam van Guus Meeuwis?
+
+Vraag: Wat is de volledige naam van Guus Meeuwis?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 49745 .
+?artist prop-nl:volledigeNaam ?result
+                }
+                
+Antwoord:
+Gustaaf Stephanus Modestus Meeuwis
+
+
+Wat is de volledige naam van Guus Meeuwis?
+
+Vraag: Wat is de volledige naam van Guus Meeuwis?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 49745 .
+?artist prop-nl:volledigeNaam ?result
+                }
+                
+Antwoord:
+Gustaaf Stephanus Modestus Meeuwis
+
+
+Wat is de volledige naam van Jimi Hendrix?  
+
+Vraag: Wat is de volledige naam van Jimi Hendrix?  
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 13155 .
+?artist prop-nl:volledigeNaam ?result
+                }
+                
+Antwoord:
+James Marshall Hendrix
+
+
+Wat is de volledige naam van Thomas Berge?
+
+Vraag: Wat is de volledige naam van Thomas Berge?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 700656 .
+?artist prop-nl:volledigeNaam ?result
+                }
+                
+Antwoord:
+Chiel Ottink
+
+
+Wat is de website van 30 Seconds To Mars?  
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is de zangstem van Mads Langer?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is een alternatieve naam voor de band one direction?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is Foals in het Japans?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is het beroep van Janine Jansen?
+
+Vraag: Wat is het beroep van Janine Jansen?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 315093 .
+?artist prop-nl:beroep ?result
+                }
+                
+Antwoord:
+Solovioliste
+Solovioliste
+
+
+Wat is het beroep van Janine Jansen?
+
+Vraag: Wat is het beroep van Janine Jansen?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 315093 .
+?artist prop-nl:beroep ?result
+                }
+                
+Antwoord:
+Solovioliste
+Solovioliste
+
+
+Wat is het eerste album van Coldplay?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is het eerste album van Snoop Dogg?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is het genre en de artiest(en) van Lunatic Soul?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is het genre van de band Nirvana?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is het genre van de muziek van Alanis Morissette?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is het jaar waarin Bach is overleden?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is het kortste nummer van Ed Sheeran?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is het laatste album van While She Sleeps?  
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat is het laatste muziekstuk van Bach?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is het land van oorsprong van The Beatles?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat is Jan Smit zijn volledige naam?
+
+Vraag: Wat is Jan Smit zijn volledige naam?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 50122 .
+?artist prop-nl:volledigeNaam ?result
+                }
+                
+Antwoord:
+Johannes Hendricus Maria Smit
+
+
+Wat voor genre is de muziek van Nicky Romero?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat voor genre is Imagine Dragons?  
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat voor Genres muziek maakt Pharrell Williams?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat voor groep is The Flaming Lips?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat voor instrument bespeelt Ludovico Einaudi?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat voor soort muziek maakt Jan Smit?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat voor soort muziek maakte George Michael?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat waren de platenmaatschappijen waarvoor Coldplay heeft gepubliceerd?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat was de bijnaam van Amy Winehouse?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat was de bijnaam van Elvis Presley?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat was de bijnaam van Johnny Cash?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat was de eerste single die Justin Bieber uitbracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat was de eerste single van Avicii?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat was de volledige naam van Jay-Z?
+
+Vraag: Wat was de volledige naam van Jay-Z?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 159235 .
+?artist prop-nl:volledigeNaam ?result
+                }
+                
+Antwoord:
+Shawn Corey Carter
+Shawn Corey Carter
+
+
+Wat was het eerste album van David Bowie?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat was Queens eerste album?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat zijn de bijnamen van Elvis Presley?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat zijn de genres van Leonard Cohen?
+
+Vraag: Wat zijn de genres van Leonard Cohen?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 84217 .
+?artist prop-nl:genre ?genre . 
+ ?genre rdfs:label ?result
+                }
+                
+Antwoord:
+Rock
+Folk
+Folkrock
+
+
+Wat zijn de genres van Leonard Cohen?
+
+Vraag: Wat zijn de genres van Leonard Cohen?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 84217 .
+?artist prop-nl:genre ?genre . 
+ ?genre rdfs:label ?result
+                }
+                
+Antwoord:
+Rock
+Folk
+Folkrock
+
+
+Wat zijn de leden van de band The Beatles?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat zijn de namen van de vijf leden van One Diretion?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wat zijn de uitgevers van Jan Smit?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wat zijn de vervolgen van Lunatic Soul?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welk album van Boudewijn de Groot is het vaakst uitgebracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welk album van Coldplay ontving meerdere muziekprijzen?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welk bandlid van Maroon 5 speelt in de film Begin Again?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Welk genre muziek maakt Paul Elstak?
+
+Vraag: Welk genre muziek maakt Paul Elstak?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 231521 .
+?artist prop-nl:genre ?genre . 
+ ?genre rdfs:label ?result
+                }
+                
+Antwoord:
+Techno
+Eurodance
+Happy Hardcore
+Hardcore techno
+
+
+Welk genre muziek maakte Joan Baez?
+
+Vraag: Welk genre muziek maakte Joan Baez?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 133177 .
+?artist prop-nl:genre ?genre . 
+ ?genre rdfs:label ?result
+                }
+                
+Antwoord:
+Folk
+
+
+Welk genre speelde Johnny Cash?
+
+Vraag: Welk genre speelde Johnny Cash?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 22426 .
+?artist prop-nl:genre ?genre . 
+ ?genre rdfs:label ?result
+                }
+                
+Antwoord:
+Countrymuziek
+Rockabilly
+
+
+Welk genre speelt Coldplay?
+
+Vraag: Welk genre speelt Coldplay?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 30614 .
+?artist prop-nl:genre ?genre . 
+ ?genre rdfs:label ?result
+                }
+                
+Antwoord:
+
+
+Welk instrument bespeelt een bassist?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Welk instrument bespeelt Keith Moon?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welk Instrument bespeelt Roger Waters?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welk instrument bespeelt Wibi Soerjadi?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welk lid van de Bee Gees is nog in leven?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welk liedje heeft Armin van Buuren geschreven?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welk radiostation presenteert de Top 2000?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke acts zijn verwant aan Iron Maiden?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke albums bracht Good Charlotte uit?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke albums hebben de Foo Fighters uitgebracht?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke albums heeft Kayne West uitgebracht voor 2007?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Welke albums heeft Toto gemaakt?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke albums maakten The Beatles?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke artiest heeft als volledige naam Lesane Parish Crooks?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke artiesten hebben getekend bij het label Roc-A-Fella Records?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Welke artisten brachten samen het nummer Rampeneren uit?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Welke band heeft het album El Camino geschreven?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke bands zijn gerelateerd aan Linkin Park?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke bijnamen had Whitney Houston?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke EP's heeft Darius uitgebracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke groep heeft het nummer Wonderwall uitgebracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Welke instrumenten bespeelde Beethoven?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke instrumenten bespeelde Billy Joel?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke instrumenten bespeelt Avril Lavigne?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke instrumenten bespeelt Avril Lavigne?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke instrumenten bespeelt Douwe Bob?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Welke instrumenten werden er voornamelijk in Barokmuziek gebruikt?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke LP bracht 'The Academy of Saint Martin in the Field' uit in 1973?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Welke mannen hebben The Beach Boys opgericht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke muziekprijs werd in 1962 ingesteld?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Welke muziekstijl is kenmerkend voor Louis Armstrong?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke muzikant is door Coldplay geïnspireerd?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke muziekinstrumenten bespeelde Beethoven?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke Nederlandse artiesten hebben zelfmoord gepleegd?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Welke Nederlandse band had in 1971 een hit met het nummer ‘Hocus Pocus’?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke nummers heeft Taylor Swift geschreven?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke personen zaten in de band The Jackson 5?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke single bracht Gordon uit in 1991?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke single maakte Nielson samen met Miss Montreal?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Welke single van Coldplay is het vaakst gereleased?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke singles heeft Avicii geschreven?  
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Welke singles heeft OneRepublic uitgebracht?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Welke zangeres heeft haar artiestennaam te danken aan een nummer van Queen?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wie brachten Into the Electric Castle uit?  
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wie componeerde Ode to Joy?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie componeerden de soundtrack van het spel Rayman Legends?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie heeft London Calling geschreven?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wie is de artiest van het album Paper Walls?  
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie is de artiest van het album The Wall?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wie is de bassist van Linkin Park?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wie is de bekendste musicus van Pearl Jam?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wie is de producent van de single Hey Brother?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie is de producer van 808s &amp; Heartbreak?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie is de publisher van Justin Bieber?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wie is de vocalist van Motorhead?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wie is de zanger van "it Was a Very Good Year"?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie is de zanger van het nummer Thinking Out Loud?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie is producer van het album Escapology?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie schreef de hit ‘Behind Blue Eyes’?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie schreef de tekst van Holy Diver?  
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie schreef het nummer ‘De Verdronken Vlinder’, een hit uit 1970?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie spelen er momenteel allemaal in Metallica?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wie waren de leden van de rapformatie Opgezwolle?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie waren de leden van Pink Floyd?
+
+Vraag: Wie waren de leden van Pink Floyd?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 3302 .
+?artist dbpedia-owl:bandMember ?bandMember . 
+ ?bandMember prop-nl:naam ?result
+                }
+                
+Antwoord:
+Syd Barrett
+David Gilmour
+Nick Mason
+Roger Waters
+
+
+Wie waren de oprichters van de band Chic?  
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie waren voormalig lid van de Beatles?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie werkten er samen voor het nummer Gold Digger?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie zaten er in Pink Floyd?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wie zijn de bandleden van Coldplay?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wie zijn de bandleden van de Rolling Stones?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wie zijn de huidige bandleden van The Eagles?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wie zijn de huidige leden van normaal?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie zijn de kinderen van Rudi Carrell?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wie zijn de leden van Coldplay?  
+
+Vraag: Wie zijn de leden van Coldplay?  
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 30614 .
+?artist dbpedia-owl:bandMember ?bandMember . 
+ ?bandMember prop-nl:naam ?result
+                }
+                
+Antwoord:
+Chris Martin
+Will Champion
+Guy Berryman
+
+
+Wie zijn de leden van de Backstreet Boys?
+
+Vraag: Wie zijn de leden van de Backstreet Boys?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 37847 .
+?artist dbpedia-owl:bandMember ?bandMember . 
+ ?bandMember prop-nl:naam ?result
+                }
+                
+Antwoord:
+Brian Littrell
+Kevin Richardson
+Nick Carter
+AJ McLean
+
+
+Wie zijn de leden van de Red Hot Chili Peppers?
+
+Vraag: Wie zijn de leden van de Red Hot Chili Peppers?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 48286 .
+?artist dbpedia-owl:bandMember ?bandMember . 
+ ?bandMember prop-nl:naam ?result
+                }
+                
+Antwoord:
+
+
+Wie zijn de leden van Racoon?
+
+Vraag: Wie zijn de leden van Racoon?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 169641 .
+?artist dbpedia-owl:bandMember ?bandMember . 
+ ?bandMember prop-nl:naam ?result
+                }
+                
+Antwoord:
+
+
+Wie zijn de leden van The Black Eyed Peas?  
+
+Vraag: Wie zijn de leden van The Black Eyed Peas?  
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 1651511 .
+?artist dbpedia-owl:bandMember ?bandMember . 
+ ?bandMember prop-nl:naam ?result
+                }
+                
+Antwoord:
+
+
+Wie zijn de schrijvers van het nummer 'I want it that way' van de Backstreet Boys?
+
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
+Wie zijn de voormalige leden van BZN?
+
+Vraag: Wie zijn de voormalige leden van BZN?
+
+Query: 
+                PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
+                PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+                PREFIX dbres: <http://dbpedia.org/resource/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+                SELECT ?result
+                WHERE  {
+                    ?artist dbpedia-owl:wikiPageID 78358 .
+?artist dbpedia-owl:formerBandMember ?bandMember . 
+ ?bandMember prop-nl:naam ?result
+                }
+                
+Antwoord:
+Dirk van der Horst
+Thomas Tol
+Anny Schilder
+Cees Tol
+Jan Veerman
+Maribelle
+
+
+Wie zong het nummer "Het Dorp"?
+
+Deze vraag kan helaas niet beantwoord worden. <Eigenschap niet gevonden>
+Wielke singles heeft Mumford &amp; Sons voor 2011 uitgebracht?
+Deze vraag kan helaas niet beantwoord worden. <Concept niet gevonden>
