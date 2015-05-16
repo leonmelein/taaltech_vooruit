@@ -214,6 +214,7 @@ def output(question, query, result):
     :param result: het resultaat als JSON.
     """
     print("Vraag: {}\nQuery: {}\nAntwoord:".format(question, query))
+
     for item in result["results"]["bindings"]:
         for argument in item:
             answer = item[argument]["value"]
