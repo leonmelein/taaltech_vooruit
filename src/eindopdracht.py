@@ -119,7 +119,7 @@ def find_wikiID(Concept, anchors):
     """
     # TODO: Verkrijg Wikipedia ID met behulp van page.csv én anchor_summary.csv
     for row in anchors:
-        if row[0] == '{}'.format(Concept):
+        if row[0].lower() == Concept.lower():
             # Get all possible references for the concept
             possiblePages = (row[1].strip('"')).split(";")
 
@@ -137,57 +137,58 @@ def find_relation(Property):
     :return: de geschikte relatie als
     """
     relations = {
-        "geboortedatum": "?identity dbpedia-owl:birthDate ?result",
-        "volledige naam": "?identity prop-nl:volledigeNaam ?result",
-        "leden": "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember prop-nl:naam ?result",
-        "voormalige leden": "?identity dbpedia-owl:formerBandMember ?bandMember . ?bandMember prop-nl:naam ?result",
-        "website": "?identity prop-nl:website ?result",
-        "beroep": "?identity prop-nl:beroep ?result",
-        "bezetting": "?identity prop-nl:functie ?bandMember . ?bandMember rdfs:label ?result",
-        "functie": "?identity prop-nl:functie ?bandMember . ?bandMember rdfs:label ?result",
-        "functies": "?identity prop-nl:functie ?bandMember . ?bandMember rdfs:label ?result",
-        "oorsprong": "?identity dbpedia-owl:origin ?origin . ?origin dbpedia-owl:name ?result",
-        "geboren": "?identity dbpedia-owl:birthDate ?result",
-        "samengesteld": "?identity prop-nl:functie ?bandMember . ?bandMember rdfs:label ?result",
-        "verjaardag" 		: "?identity dbpedia-owl:birthDate ?result",
-        "overlijdensdatum" 	: "?identity dbpedia-owl:deathDate ?result",
-        "bijnaam" 			: "?identity prop-nl:bijnaam ?result",
+        "geboortedatum"     : "?identity dbpedia-owl:birthDate ?result",
+        "volledige naam"    : "?identity prop-nl:volledigeNaam ?result",
+        "leden"             : "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember prop-nl:naam ?result",
+        "bandleden"         : "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember prop-nl:naam ?result",
+        "voormalige leden"  : "?identity dbpedia-owl:formerBandMember ?bandMember . ?bandMember prop-nl:naam ?result",
+        "website"           : "?identity prop-nl:website ?result",
+        "beroep"            : "?identity prop-nl:beroep ?result",
+        "bezetting"         : "?identity prop-nl:functie ?bandMember . ?bandMember rdfs:label ?result",
+        "functie"           : "?identity prop-nl:functie ?bandMember . ?bandMember rdfs:label ?result",
+        "functies"          : "?identity prop-nl:functie ?bandMember . ?bandMember rdfs:label ?result",
+        "oorsprong"         : "?identity dbpedia-owl:origin ?origin . ?origin dbpedia-owl:name ?result",
+        "geboren"           : "?identity dbpedia-owl:birthDate ?result",
+        "samengesteld"      : "?identity prop-nl:functie ?bandMember . ?bandMember rdfs:label ?result",
+        "verjaardag"        : "?identity dbpedia-owl:birthDate ?result",
+        "overlijdensdatum"  : "?identity dbpedia-owl:deathDate ?result",
+        "bijnaam"           : "?identity prop-nl:bijnaam ?result",
         "datum van uitgave" : "{?identity dbpedia-owl:releaseDate ?result} UNION {?identity prop-nl:releasedatum ?result}",
-        "uitgave datum" 	: "{?identity dbpedia-owl:releaseDate ?result} UNION {?identity prop-nl:releasedatum ?result}"	,
-        "uitgavedaum" 		: "{?identity dbpedia-owl:releaseDate ?result} UNION {?identity prop-nl:releasedatum ?result}"	,
-        "schrijver" 		: "?identity dbpedia-owl:writer ?name. ?name rdfs:label ?result",
-        "schrijvers" 		: "?identity dbpedia-owl:writer ?name. ?name rdfs:label ?result",
-        "complete naam"		: "?identity dbpedia-owl:longName ?result",
-        "geboortenaam" 		: "?identity dbpedia-owl:longName ?result",
-        "site"				: "?identity prop-nl:website ?result",
-        "URL"				: "?identity prop-nl:website ?result",
-        "url"				: "?identity prop-nl:website ?result",
-        "label"				: "?identity prop-nl:recordLabel ?label. ?label rdfs:label ?result",
+        "uitgave datum"     : "{?identity dbpedia-owl:releaseDate ?result} UNION {?identity prop-nl:releasedatum ?result}"  ,
+        "uitgavedaum"       : "{?identity dbpedia-owl:releaseDate ?result} UNION {?identity prop-nl:releasedatum ?result}"  ,
+        "schrijver"         : "?identity dbpedia-owl:writer ?name. ?name rdfs:label ?result",
+        "schrijvers"        : "?identity dbpedia-owl:writer ?name. ?name rdfs:label ?result",
+        "complete naam"     : "?identity dbpedia-owl:longName ?result",
+        "geboortenaam"      : "?identity dbpedia-owl:longName ?result",
+        "site"              : "?identity prop-nl:website ?result",
+        "URL"               : "?identity prop-nl:website ?result",
+        "url"               : "?identity prop-nl:website ?result",
+        "label"             : "?identity prop-nl:recordLabel ?label. ?label rdfs:label ?result",
         "platenmaatschappij": "?identity prop-nl:recordLabel ?label. ?label rdfs:label ?result",
         "platenmaatschappijen": "?identity prop-nl:recordLabel ?label. ?label rdfs:label ?result",
-        "uitgever"			: "?identity prop-nl:recordLabel ?label. ?label rdfs:label ?result",
-        "herkomst" 			: "?identity dbpedia-owl:origin ?place. ?place rdfs:label ?result",
-        "muziekstijl"		: "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
-        "genre"				: "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
-        "genres"			: "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
-        "stijl"				: "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
-        "muzieksoort"		: "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
-        "abstract"	 		: "?identity dbpedia-owl:abstract ?result",
-        "platen"			: "?album dbpedia-owl:identity ?identity. ?album rdfs:label ?result",
-        "plaat"				: "?album dbpedia-owl:identity ?identity. ?album rdfs:label ?result",
-        "albums"			: "?album dbpedia-owl:identity ?identity. ?album rdfs:label ?result",
-        "album"				: "?album dbpedia-owl:identity ?identity. ?album rdfs:label ?result",
-        "beginjaar": "?identity prop-nl:jarenActief ?result",
-        "geloof": "?identity prop-nl:geloof ?result",
-        "naam": "?identity prop-nl:volledigeNaam ?result",
-        "schreef": "?identity dbpedia-owl:musicalArtist ?result",
-        "geschreven": "?identity dbpedia-owl:musicalArtist ?result",
-        "auteur": "?identity dbpedia-owl:musicalArtist ?result",
-        "componist": "?identity dbpedia-owl:musicalArtist ?result",
-        "credits": "?identity dbpedia-owl:musicalArtist ?result",
-        "speelde": "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember prop-nl:naam ?result",
-        'bandlid': "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember prop-nl:naam ?result",
-        'lid': "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember prop-nl:naam ?result",
+        "uitgever"          : "?identity prop-nl:recordLabel ?label. ?label rdfs:label ?result",
+        "herkomst"          : "?identity dbpedia-owl:origin ?place. ?place rdfs:label ?result",
+        "muziekstijl"       : "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
+        "genre"             : "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
+        "genres"            : "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
+        "stijl"             : "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
+        "muzieksoort"       : "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
+        "abstract"          : "?identity dbpedia-owl:abstract ?result",
+        "platen"            : "?album dbpedia-owl:identity ?identity. ?album rdfs:label ?result",
+        "plaat"             : "?album dbpedia-owl:identity ?identity. ?album rdfs:label ?result",
+        "albums"            : "?album dbpedia-owl:identity ?identity. ?album rdfs:label ?result",
+        "album"             : "?album dbpedia-owl:identity ?identity. ?album rdfs:label ?result",
+        "beginjaar"         : "?identity prop-nl:jarenActief ?result",
+        "geloof"            : "?identity prop-nl:geloof ?result",
+        "naam"              : "?identity prop-nl:volledigeNaam ?result",
+        "schreef"           : "?identity dbpedia-owl:musicalArtist ?result",
+        "geschreven"        : "?identity dbpedia-owl:musicalArtist ?result",
+        "auteur"            : "?identity dbpedia-owl:musicalArtist ?result",
+        "componist"         : "?identity dbpedia-owl:musicalArtist ?result",
+        "credits"           : "?identity dbpedia-owl:musicalArtist ?result",
+        "speelde"           : "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember prop-nl:naam ?result",
+        'bandlid'           : "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember prop-nl:naam ?result",
+        'lid'               : "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember prop-nl:naam ?result"
     }
 
     relation = None
@@ -308,9 +309,9 @@ if __name__ == "__main__":
 
     # Resort to user input (or if the user chooses so: test questions)
     else:
-        user_prompt = "Stel uw vraag (enter voor voorbeeldvragen; 'stop' om te stoppen): "
-
-        user_question = input(user_prompt)
+        user_prompt = "Stel uw vraag (enter voor voorbeeldvragen; 'stop' om te stoppen)."
+        print(user_prompt)
+        user_question = input(">> ")
         while user_question != "stop":
 
             # If no input, run the test questions
@@ -347,4 +348,5 @@ if __name__ == "__main__":
                 main(user_question, anchors)
 
             # After the question has been handled, ask again.
-            user_question = input(user_prompt)
+            print("\n" + user_prompt)
+            user_question = input(">> ")
