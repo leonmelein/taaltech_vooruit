@@ -16,7 +16,6 @@ def main(question, anchors):
     # Parse and analyze question
     parse = parse_question(question)
     try:
-        print(question)
         Concept, Property = analyze_question(parse)
 
         # Find relevant information for query
@@ -100,7 +99,6 @@ def analyze_question(xml):
         if word == "wanneer" or word == "waar":
             relation = [word] + relation
     Property = " ".join(relation)
-    print("property: " + Property)
 
     # Check if we've found a property
     if len(Property) == 0:
