@@ -19,16 +19,19 @@ def main(question, anchors):
     theList = [question]
     try:
         Concept, Property = analyze_question(parse)
-
         # Find relevant information for query
         # # Concept
         wikiID = find_resource(Concept, anchors)
 
         # # Property
         relation = find_relation(Property)
+        answer = ""
+        if "hoeveel" in Property:
+            answer = query(source_DBPedia, construct_query(wikiID, relation,"COUNT(?result)"))
+        else:
+            answer = query(source_DBPedia, construct_query(wikiID, relation))
 
         # Retrieve answer
-        answer = query(source_DBPedia, construct_query(wikiID, relation))
         answerList = output(answer)
         theList = theList + answerList
         return theList
@@ -89,9 +92,29 @@ def analyze_question(xml):
     :param parsed_q: de parse uit Alpino in XML.
     :return: het concept en de bijbehorende eigenschap in een Tuple.
     """
+    alpinoPatternsRelation = ['//node[@pos="adj" and @rel="mod"]',
+                            '//node[@rel="hd" and @pos="noun"]',
+                            '//node[@rel="vc"]/node[@rel="hd"]',
+                            '//node[../@rel="su" and @rel="hd" and ..//@rel="mod"]',
+                            '//node[@rel="hd" and ../@rel="body" and ..//node[@rel="mod" and ../@rel="body"]]',
+                            '//node[@rel="hd" and @pt="ww" and ..//node[@rel="app" and ../@rel="obj1" and ../../@rel="body"]]',
+                            '//node[@rel="hd" and @pt="n" and ../@rel="obj1" and ..//node[@rel="mod"]]',
+                            '//node[@rel="hd" and ../@rel="vc" and ..//node[@rel="obj1"]]',
+                            '//node[@rel="hd" and ../@rel="predc" and ..//node[@rel="obj1" and ../@rel="mod" and ../../@rel="predc"]]']
+
+    alpinoPatternsConcepts = ['//node[@rel="obj1" and @ntype="eigen"]',
+                            '//node[@spectype="deeleigen"]',
+                            '//node[@rel="su" and @ntype="eigen"]']
+
+    alpinoPatternsVraagwoorden = ['//node[@root="hoeveel" and ../@rel="whd"]',
+                            '//node[@root="wanneer" and ../@rel="whd"]',
+                            '//node[@root="waar" and ../@rel="whd"]']
+
     # TODO: Uitbreiden verkrijgen concept
     identity = []
-    names = xml.xpath('//node[@rel="obj1" and @ntype="eigen"] | //node[@spectype="deeleigen"] | //node[@rel="su" and @ntype="eigen"]')
+
+
+    names = xml.xpath(" | ".join(alpinoPatternsConcepts))
     for name in names:
         identity.append(name.attrib["word"])
     Concept = " ".join(identity)
@@ -103,13 +126,13 @@ def analyze_question(xml):
 
     # TODO: Uitbreiden verkrijgen eigenschap
     relation = []
-    properties = xml.xpath('//node[@pos="adj" and @rel="mod"] | //node[@rel="hd" and @pos="noun"] | //node[@rel="vc"]/node[@rel="hd"]')
-    vraagwoorden = xml.xpath('//node[@rel="whd" and (@root="wanneer" or @root="waar")]')
+    properties = xml.xpath(" | ".join(alpinoPatternsRelation))
+    vraagwoorden = xml.xpath(" | ".join(alpinoPatternsVraagwoorden))
     for prop in properties:
         relation.append(prop.attrib["word"])
     for vraagwoord in vraagwoorden:
         word = (vraagwoord.attrib["word"]).lower()
-        if word == "wanneer" or word == "waar":
+        if word in ['wanneer','waar','hoeveel']:
             relation = [word] + relation
     Property = " ".join(relation)
 
@@ -179,7 +202,8 @@ def find_relation(Property):
         "beginjaar"         : "?identity prop-nl:jarenActief ?result",
         "geloof"            : "?identity prop-nl:geloof ?result",
         "schreef"           : "?identity dbpedia-owl:musicalArtist ?result",
-        "waar geboren"      : "?identity dbpedia-owl:birthPlace ?place. ?place rdfs:label ?result"
+        "waar geboren"      : "?identity dbpedia-owl:birthPlace ?place. ?place rdfs:label ?result",
+        "hoeveel albums"    : "?result dbpedia-owl:artist ?identity. ?result rdf:type dbpedia-owl:Album"
     }
 
     subrelations = {
@@ -280,7 +304,9 @@ def find_relation(Property):
         "geschreven"        : "schreef",
         "auteur"            : "schreef",
         "componist"         : "schreef",
-        "credits"           : "schreef"
+        "credits"           : "schreef",
+        "hoeveel albums"     : "hoeveel albums",
+        "hoeveel albums geproduceerd"     : "hoeveel albums"
     }
 
     relation = None
@@ -295,7 +321,7 @@ def find_relation(Property):
     return relation
 
 
-def construct_query(wikiPageID, relation):
+def construct_query(wikiPageID, relation, selection="STR(?result)"):
     baseQuery = """
                 PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
                 PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
@@ -304,13 +330,13 @@ def construct_query(wikiPageID, relation):
                 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
                 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 
-                SELECT STR(?result)
+                SELECT {}
                 WHERE  {{
                     ?identity dbpedia-owl:wikiPageID {} .
                     {}
                 }}
                 """
-    return baseQuery.format(wikiPageID, relation)
+    return baseQuery.format(selection, wikiPageID, relation)
 
 
 def query(source, query):
