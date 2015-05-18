@@ -107,7 +107,7 @@ def analyzeSentence(sentence):
 	except:
 		donothing = ""
 
-	if Xvalue and Yvalue != "":
+	if Xvalue != "" and Yvalue != "":
 		return(Xvalue.strip(),Yvalue.strip())
 
 	# Als er niks is gevonden door Alpino

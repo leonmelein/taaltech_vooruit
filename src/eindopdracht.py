@@ -91,8 +91,13 @@ def analyze_question(xml):
     # TODO: Uitbreiden verkrijgen eigenschap
     relation = []
     properties = xml.xpath('//node[@pos="adj" and @rel="mod"] | //node[@rel="hd" and @pos="noun"] | //node[@rel="vc"]/node[@rel="hd"]')
+    vraagwoorden = xml.xpath('//node[@rel="whd" and (@root="wanneer" or @root="waar")]')
     for prop in properties:
         relation.append(prop.attrib["word"])
+    for vraagwoord in vraagwoorden:
+        word = (vraagwoord.attrib["word"]).lower()
+        if word == "wanneer" or word == "waar":
+            relation = [word] + relation
     Property = " ".join(relation)
 
     # Check if we've found a property
@@ -138,62 +143,88 @@ def find_relation(Property):
     """
     relations = {
         "geboortedatum"     : "?identity dbpedia-owl:birthDate ?result",
-        "volledige naam"    : "?identity prop-nl:volledigeNaam ?result",
+        "naam"              : "?identity dbpedia-owl:longName ?result",
         "leden"             : "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember prop-nl:naam ?result",
-        "bandleden"         : "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember prop-nl:naam ?result",
+        "genre"             : "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
+        "oorsprong"         : "?identity dbpedia-owl:origin ?place. ?place rdfs:label ?result",
         "voormalige leden"  : "?identity dbpedia-owl:formerBandMember ?bandMember . ?bandMember prop-nl:naam ?result",
-        "website"           : "?identity prop-nl:website ?result",
-        "beroep"            : "?identity prop-nl:beroep ?result",
         "bezetting"         : "?identity prop-nl:functie ?bandMember . ?bandMember rdfs:label ?result",
-        "functie"           : "?identity prop-nl:functie ?bandMember . ?bandMember rdfs:label ?result",
-        "functies"          : "?identity prop-nl:functie ?bandMember . ?bandMember rdfs:label ?result",
-        "oorsprong"         : "?identity dbpedia-owl:origin ?origin . ?origin dbpedia-owl:name ?result",
-        "geboren"           : "?identity dbpedia-owl:birthDate ?result",
-        "samengesteld"      : "?identity prop-nl:functie ?bandMember . ?bandMember rdfs:label ?result",
-        "verjaardag"        : "?identity dbpedia-owl:birthDate ?result",
         "overlijdensdatum"  : "?identity dbpedia-owl:deathDate ?result",
         "bijnaam"           : "?identity prop-nl:bijnaam ?result",
-        "datum van uitgave" : "{?identity dbpedia-owl:releaseDate ?result} UNION {?identity prop-nl:releasedatum ?result}",
-        "uitgave datum"     : "{?identity dbpedia-owl:releaseDate ?result} UNION {?identity prop-nl:releasedatum ?result}"  ,
-        "uitgavedaum"       : "{?identity dbpedia-owl:releaseDate ?result} UNION {?identity prop-nl:releasedatum ?result}"  ,
-        "schrijver"         : "?identity dbpedia-owl:writer ?name. ?name rdfs:label ?result",
+        "uitgavedaum"       : "{?identity dbpedia-owl:releaseDate ?result} UNION {?identity prop-nl:releasedatum ?result}",
         "schrijvers"        : "?identity dbpedia-owl:writer ?name. ?name rdfs:label ?result",
-        "complete naam"     : "?identity dbpedia-owl:longName ?result",
-        "geboortenaam"      : "?identity dbpedia-owl:longName ?result",
-        "site"              : "?identity prop-nl:website ?result",
-        "URL"               : "?identity prop-nl:website ?result",
-        "url"               : "?identity prop-nl:website ?result",
+        "website"           : "?identity prop-nl:website ?result",
         "label"             : "?identity prop-nl:recordLabel ?label. ?label rdfs:label ?result",
-        "platenmaatschappij": "?identity prop-nl:recordLabel ?label. ?label rdfs:label ?result",
-        "platenmaatschappijen": "?identity prop-nl:recordLabel ?label. ?label rdfs:label ?result",
-        "uitgever"          : "?identity prop-nl:recordLabel ?label. ?label rdfs:label ?result",
-        "herkomst"          : "?identity dbpedia-owl:origin ?place. ?place rdfs:label ?result",
-        "muziekstijl"       : "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
-        "genre"             : "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
-        "genres"            : "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
-        "stijl"             : "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
-        "muzieksoort"       : "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
         "abstract"          : "?identity dbpedia-owl:abstract ?result",
-        "platen"            : "?album dbpedia-owl:identity ?identity. ?album rdfs:label ?result",
-        "plaat"             : "?album dbpedia-owl:identity ?identity. ?album rdfs:label ?result",
         "albums"            : "?album dbpedia-owl:identity ?identity. ?album rdfs:label ?result",
-        "album"             : "?album dbpedia-owl:identity ?identity. ?album rdfs:label ?result",
         "beginjaar"         : "?identity prop-nl:jarenActief ?result",
         "geloof"            : "?identity prop-nl:geloof ?result",
-        "naam"              : "?identity prop-nl:volledigeNaam ?result",
         "schreef"           : "?identity dbpedia-owl:musicalArtist ?result",
-        "geschreven"        : "?identity dbpedia-owl:musicalArtist ?result",
-        "auteur"            : "?identity dbpedia-owl:musicalArtist ?result",
-        "componist"         : "?identity dbpedia-owl:musicalArtist ?result",
-        "credits"           : "?identity dbpedia-owl:musicalArtist ?result",
-        "speelde"           : "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember prop-nl:naam ?result",
-        'bandlid'           : "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember prop-nl:naam ?result",
-        'lid'               : "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember prop-nl:naam ?result"
+    }
+
+    subrelations = {
+        "geboortedatum"     : "geboortedatum",
+        "wanneer geboren"   : "geboortedatum",
+        "verjaardag"        : "geboortedatum",
+        "volledige naam"    : "naam",
+        "complete naam"     : "naam",
+        "geboortenaam"      : "naam",
+        "naam"              : "naam",
+        "leden"             : "leden",
+        "bandleden"         : "leden",
+        "speelde"           : "leden",
+        "bandlid"           : "leden",
+        "lid"               : "leden",
+        "muziekstijl"       : "genre",
+        "genre"             : "genre",
+        "genres"            : "genre",
+        "stijl"             : "genre",
+        "muzieksoort"       : "genre",
+        "herkomst"          : "oorsprong",
+        "oorsprong"         : "oorsprong",
+        "voormalige leden"  : "voormalige leden",
+        "voormalige lid"    : "voormalige leden",
+        "bezetting"         : "bezetting",
+        "functie"           : "bezetting",
+        "functies"          : "bezetting",
+        "samengesteld"      : "bezetting",
+        "overlijdensdatum"  : "overlijdensdatum",
+        "bijnaam"           : "bijnaam",
+        "datum van uitgave" : "uitgavedatum",
+        "uitgave datum"     : "uitgavedatum"  ,
+        "uitgavedaum"       : "uitgavedatum"  ,
+        "schrijver"         : "schrijvers",
+        "schrijvers"        : "schrijvers",
+        "site"              : "website",
+        "URL"               : "website",
+        "url"               : "website",
+        "website"           : "website",
+        "label"             : "label",
+        "labels"            : "label",
+        "uitgever"          : "label",
+        "uitgevers"         : "label",
+        "platenmaatschappij": "label",
+        "platenmaatschappijen": "label",
+        "abstract"          : "abstract",
+        "platen"            : "albums",
+        "plaat"             : "albums",
+        "albums"            : "albums",
+        "album"             : "albums",
+        "beginjaar"         : "beginjaar",
+        "wanneer begonnen"  : "beginjaar",
+        "begin datum"       : "beginjaar",
+        "begindatum"        : "beginjaar",
+        "geloof"            : "geloof",
+        "schreef"           : "schreef",
+        "geschreven"        : "schreef",
+        "auteur"            : "schreef",
+        "componist"         : "schreef",
+        "credits"           : "schreef"
     }
 
     relation = None
     try:
-        relation = relations[Property]
+        relation = relations[subrelations[Property]]
     except KeyError:
         # TODO: Verkrijg relatie uit similarwords
         pass
