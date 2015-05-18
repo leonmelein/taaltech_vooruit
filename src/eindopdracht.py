@@ -12,9 +12,11 @@ import sys
 
 def main(question, anchors):
     source_DBPedia = "http://nl.dbpedia.org/sparql"
-
     # Parse and analyze question
     parse = parse_question(question)
+    while question[-1] == "\n" or question[-1] == " ":
+        question = question[:-1]
+    theList = [question]
     try:
         Concept, Property = analyze_question(parse)
 
@@ -27,23 +29,34 @@ def main(question, anchors):
 
         # Retrieve answer
         answer = query(source_DBPedia, construct_query(wikiID, relation))
-        output(answer)
-
+        answerList = output(answer)
+        theList = theList + answerList
+        return theList
     except NoConceptException:
         # TODO: Meaningful error handling
         print("No Concept")
+        theList = theList + ["No Concept"]
+        return theList
     except NoPropertyException:
         # TODO: Meaningful error handling
         print("No Property")
+        theList = theList + ["No Property"]
+        return theList
     except NoConceptIDException:
         # TODO: Meaningful error handling
         print("No wikiPageID")
+        theList = theList + ["No wikiPageID"]
+        return theList
     except NoPropertyRelationException:
         # TODO: Meaningful error handling
         print("No relation")
+        theList = theList + ["No relation"]
+        return theList
     except NoResultException:
         # TODO: Meaningful error handling
         print("No results")
+        theList = theList + ["No results"]
+        return theList
 
 def parse_question(question, host='zardoz.service.rug.nl', port=42424):
     """
@@ -323,7 +336,7 @@ def output(result):
     if len(results) == 0:
         raise NoResultException
     else:
-        print("Deze vraag is beantwoord")
+        answerList = []
         for item in results:
             for argument in item:
                 answer = item[argument]["value"]
@@ -331,8 +344,11 @@ def output(result):
                     parsableDate = answer.split("+")[0]
                     localDate = datetime.strptime(parsableDate, "%Y-%m-%d")
                     print(localDate.strftime("%d-%m-%Y"))
+                    answerList.append(localDate.strftime("%d-%m-%Y"))
                 except ValueError:
                     print(answer)
+                    answerList.append(answer)
+        return answerList
 
 
 # Helper functions
@@ -372,9 +388,15 @@ if __name__ == "__main__":
 
     # Check for command-line argument
     if len(sys.argv) >= 2:
+        completeList = []
+        count = 1
         with open(sys.argv[1], 'r') as questions:
             for question in questions:
-                main(question, anchors)
+                theList = main(question, anchors)
+                theList = [count] + theList
+                completeList.append(theList)
+                count += 1
+        print(completeList)
 
     # Check standard input
     elif not sys.stdin.isatty():
