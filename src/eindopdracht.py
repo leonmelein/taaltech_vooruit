@@ -136,15 +136,21 @@ def find_wikiID(Concept, anchors):
     :return: Wikipedia ID als string.
     """
     # TODO: Verkrijg Wikipedia ID met behulp van page.csv én anchor_summary.csv
+    count = 0
+    wikiID = None
     for row in anchors:
         if row[0].lower() == Concept.lower():
             # Get all possible references for the concept
             possiblePages = (row[1].strip('"')).split(";")
 
             # Get the ID of the most frequently referenced page
-            wikiID = (possiblePages[0].split(":"))[0]
-            return wikiID
-    return None
+            wikiIDtemp = (possiblePages[0].split(":"))[0]
+            wikiIDfreq = int((possiblePages[0].split(":"))[1])
+            if wikiIDfreq > count:
+                count = wikiIDfreq
+                wikiID = wikiIDtemp
+
+    return wikiID
 
 def find_relation(Property):
     """
