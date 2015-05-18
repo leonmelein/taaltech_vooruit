@@ -16,6 +16,7 @@ def main(question, anchors):
     # Parse and analyze question
     parse = parse_question(question)
     try:
+        print(question)
         Concept, Property = analyze_question(parse)
 
         # Find relevant information for query
@@ -99,6 +100,7 @@ def analyze_question(xml):
         if word == "wanneer" or word == "waar":
             relation = [word] + relation
     Property = " ".join(relation)
+    print("property: " + Property)
 
     # Check if we've found a property
     if len(Property) == 0:
@@ -144,7 +146,7 @@ def find_relation(Property):
     relations = {
         "geboortedatum"     : "?identity dbpedia-owl:birthDate ?result",
         "naam"              : "?identity dbpedia-owl:longName ?result",
-        "leden"             : "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember prop-nl:naam ?result",
+        "leden"             : "?identity dbpedia-owl:bandMember ?bandMember . ?bandMember rdfs:label ?result",
         "genre"             : "?identity dbpedia-owl:genre ?label. ?label rdfs:label ?result",
         "oorsprong"         : "?identity dbpedia-owl:origin ?place. ?place rdfs:label ?result",
         "voormalige leden"  : "?identity dbpedia-owl:formerBandMember ?bandMember . ?bandMember prop-nl:naam ?result",
@@ -160,28 +162,55 @@ def find_relation(Property):
         "beginjaar"         : "?identity prop-nl:jarenActief ?result",
         "geloof"            : "?identity prop-nl:geloof ?result",
         "schreef"           : "?identity dbpedia-owl:musicalArtist ?result",
+        "waar geboren"      : "?identity dbpedia-owl:birthPlace ?place. ?place rdfs:label ?result"
     }
 
     subrelations = {
         "geboortedatum"     : "geboortedatum",
         "wanneer geboren"   : "geboortedatum",
         "verjaardag"        : "geboortedatum",
+        "datum geboren"     : "geboortedatum",
+        "waar geboren"      : "waar geboren",
+        "geboorteplaats"    : "waar geboren",
+        "land geboren"      : "waar geboren",
         "volledige naam"    : "naam",
         "complete naam"     : "naam",
         "geboortenaam"      : "naam",
+        "gehele naam"       : "naam",
+        "artiest volledige naam": "naam",
         "naam"              : "naam",
+        "echte naam"        : "naam",
         "leden"             : "leden",
         "bandleden"         : "leden",
+        "leden band"        : "leden",
         "speelde"           : "leden",
+        "namen leden"       : "leden",
         "bandlid"           : "leden",
+        "huidige bandleden" : "leden",
         "lid"               : "leden",
         "muziekstijl"       : "genre",
         "genre"             : "genre",
         "genres"            : "genre",
+        "genre muziek"      : "genre",
+        "genres muziek"     : "genre",
+        "genres gerekend"   : "genre",
+        "stijl muziek"      : "genre",
+        "genre artiest(en)" : "genre",
+        "genres nummers"    : "genre",
+        "genre(s) nummers"  : "genre",
         "stijl"             : "genre",
         "muzieksoort"       : "genre",
         "herkomst"          : "oorsprong",
+        "waar herkomst"     : "oorsprong",
         "oorsprong"         : "oorsprong",
+        "stad band"         : "oorsprong",
+        "waar band"         : "oorsprong",
+        "waar origineel"    : "oorsprong",
+        "waar opgericht"    : "oorsprong",
+        "waar"              : "oorsprong",
+        "land oorsprong"    : "oorsprong",
+        "waar oorsprong"    : "oorsprong",
+        "stad opgericht"    : "oorsprong",
         "voormalige leden"  : "voormalige leden",
         "voormalige lid"    : "voormalige leden",
         "bezetting"         : "bezetting",
@@ -189,7 +218,11 @@ def find_relation(Property):
         "functies"          : "bezetting",
         "samengesteld"      : "bezetting",
         "overlijdensdatum"  : "overlijdensdatum",
+        "wanneer overleden" : "overlijdensdatum",
+        "dag overleden"     : "overlijdensdatum",
+        "jaar overleden"    : "overlijdensdatum",
         "bijnaam"           : "bijnaam",
+        "bijnamen"          : "bijnaam",
         "datum van uitgave" : "uitgavedatum",
         "uitgave datum"     : "uitgavedatum"  ,
         "uitgavedaum"       : "uitgavedatum"  ,
@@ -199,12 +232,19 @@ def find_relation(Property):
         "URL"               : "website",
         "url"               : "website",
         "website"           : "website",
+        "officiële website" : "website",
+        "officiele website" : "website",
         "label"             : "label",
+        "recordlabel"       : "label",
         "labels"            : "label",
         "uitgever"          : "label",
         "uitgevers"         : "label",
+        "publisher"         : "label",
         "platenmaatschappij": "label",
         "platenmaatschappijen": "label",
+        "platenmaatschappijen contract" : "label",
+        "platenmaatschappijen gepubliceerd" : "label",
+        "labels muziek uitgebracht" : "label",
         "abstract"          : "abstract",
         "platen"            : "albums",
         "plaat"             : "albums",
@@ -214,6 +254,10 @@ def find_relation(Property):
         "wanneer begonnen"  : "beginjaar",
         "begin datum"       : "beginjaar",
         "begindatum"        : "beginjaar",
+        "jaar band opgericht": "beginjaar",
+        "jaar opgericht"    : "beginjaar",
+        "wanneer band opgericht" : "beginjaar",
+        "wanneer opgericht" : "beginjaar",
         "geloof"            : "geloof",
         "schreef"           : "schreef",
         "geschreven"        : "schreef",
@@ -281,6 +325,7 @@ def output(result):
     if len(results) == 0:
         raise NoResultException
     else:
+        print("Deze vraag is beantwoord")
         for item in results:
             for argument in item:
                 answer = item[argument]["value"]
