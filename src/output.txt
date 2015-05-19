@@ -1,32 +1,32 @@
-Bij welk platenlabel zit John Mayer?
+RES Bij welk platenlabel zit John Mayer?
 
 property: platenlabel
 No relation
-dbtune Wat is de website van The Beatles?
+RES dbtune Wat is de website van The Beatles?
 
 property: dbtune website
 No relation
-In welke bands speelde Tim Knol?
+NORES In welke bands speelde Tim Knol?
 
 property: bands
 No relation
-In welk jaar begon Imagine Dragons?
+NORES In welk jaar begon Imagine Dragons?
 
 property: jaar
 No wikiPageID
-In welk jaar bracht Marco Borsato de single Rood uit?
+RES In welk jaar bracht Marco Borsato de single Rood uit?
 
 property: jaar single
 No relation
-In welk jaar verliet Ryan Dusick Maroon 5? 
+NORES In welk jaar verliet Ryan Dusick Maroon 5? 
 
 property: jaar
 No wikiPageID
-Op welk album van de band Coldplay staat The Scientist?
+NORES Op welk album van de band Coldplay staat The Scientist?
 
 property: album band
 No relation
-Question: Wat is de hele naam van Elvis?
+RES Question: Wat is de hele naam van Elvis?
 
 property: hele naam
 No relation
@@ -37,15 +37,15 @@ Bono (zanger)
 Adam Clayton
 Larry Mullen jr.
 The Edge (David Evans)
-Voor welke films maakte Ry Cooder de muziek?
+RES Voor welke films maakte Ry Cooder de muziek?
 
 property: films muziek
 No relation
-Voor welk label werkte Johnny Cash?
+RES Voor welk label werkte Johnny Cash?
 
 property: label
 No results
-Waar ligt de oorsprong van 30 Seconds To Mars?
+RES Waar ligt de oorsprong van 30 Seconds To Mars?
 
 property: waar oorsprong
 No wikiPageID
