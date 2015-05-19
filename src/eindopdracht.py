@@ -23,13 +23,13 @@ def main(question, anchors):
         # Find relevant information for query
         # # Concept
         wikiID = find_resource(Concept, anchors)
-
         # # Property
-        relation = find_relation(Property)
         answer = ""
         if Property[0:7] == "hoeveel":
+            relation = find_relation(Property[8:])
             answer = query(source_DBPedia, construct_query(wikiID, relation,"COUNT(?result)"))
         else:
+            relation = find_relation(Property)
             answer = query(source_DBPedia, construct_query(wikiID, relation))
 
         answerList = output(answer)
@@ -328,9 +328,6 @@ def find_relation(Property):
         "albums uitgegeven" : "albums",
         "albums gemaakt"    : "albums",
         "album band"        : "albums",
-        "hoeveel albums"    : "albums",
-        "hoeveel albums gemaakt": "albums",
-        "hoeveel alubms geproduceerd":"albums",
         "beginjaar"         : "beginjaar",
         "wanneer begonnen"  : "beginjaar",
         "begin datum"       : "beginjaar",
