@@ -104,12 +104,12 @@ def analyze_question(xml):
     # TODO: Uitbreiden verkrijgen eigenschap
     relation = []
     properties = xml.xpath('//node[@pos="adj" and @rel="mod"] | //node[@rel="hd" and @pos="noun"] | //node[@rel="vc"]/node[@rel="hd"]')
-    vraagwoorden = xml.xpath('//node[@rel="whd" and (@root="wanneer" or @root="waar")]')
+    vraagwoorden = xml.xpath('//node[(@rel="whd" and (@root="wanneer" or @root="waar")) or (@rel="det" and @root="hoeveel")]')
     for prop in properties:
         relation.append(prop.attrib["word"])
     for vraagwoord in vraagwoorden:
         word = (vraagwoord.attrib["word"]).lower()
-        if word == "wanneer" or word == "waar":
+        if word == "wanneer" or word == "waar" or word == "hoeveel":
             relation = [word] + relation
     Property = " ".join(relation)
 
