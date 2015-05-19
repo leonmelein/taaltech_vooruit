@@ -356,6 +356,31 @@ def output(result):
                     answerList.append(answer)
         return answerList
 
+def countList(completeList):
+    NoRelation = 0
+    NoConcept = 0
+    NoWikipageID = 0
+    NoProperty = 0
+    NoResult = 0
+    for question in completeList:
+        if question[2] == "No results":
+            NoResult += 1
+        elif question[2] == "No Property":
+            NoProperty += 1
+        elif question[2] == "No Concept":
+            NoConcept += 1
+        elif question[2] == "No relation":
+            NoRelation += 1
+        elif question[2] == "No wikiPageID":
+            NoWikipageID += 1
+    notAnswered = NoRelation + NoConcept + NoWikipageID + NoProperty + NoResult
+    total = len(completeList)
+    print("Total: " + str(total) + ". And " + str(total-notAnswered) + " answered.")
+    print("No relation: " + str(NoRelation))
+    print("No concept: " + str(NoConcept))
+    print("No wikiID: " + str(NoWikipageID))
+    print("No property: " + str(NoProperty))
+    print("No result: " + str(NoResult))
 
 # Helper functions
 def load_anchors(file):
@@ -403,6 +428,7 @@ if __name__ == "__main__":
                 completeList.append(theList)
                 count += 1
         print(completeList)
+        countList(completeList)
 
     # Check standard input
     elif not sys.stdin.isatty():
