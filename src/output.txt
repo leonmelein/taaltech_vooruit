@@ -1,0 +1,1021 @@
+Bij welk platenlabel zit John Mayer?
+
+property: platenlabel
+No relation
+dbtune Wat is de website van The Beatles?
+
+property: dbtune website
+No relation
+In welke bands speelde Tim Knol?
+
+property: bands
+No relation
+In welk jaar begon Imagine Dragons?
+
+property: jaar
+No wikiPageID
+In welk jaar bracht Marco Borsato de single Rood uit?
+
+property: jaar single
+No relation
+In welk jaar verliet Ryan Dusick Maroon 5? 
+
+property: jaar
+No wikiPageID
+Op welk album van de band Coldplay staat The Scientist?
+
+property: album band
+No relation
+Question: Wat is de hele naam van Elvis?
+
+property: hele naam
+No relation
+Uit hoeveel leden bestaat U2?
+
+property: leden
+Bono (zanger)
+Adam Clayton
+Larry Mullen jr.
+The Edge (David Evans)
+Voor welke films maakte Ry Cooder de muziek?
+
+property: films muziek
+No relation
+Voor welk label werkte Johnny Cash?
+
+property: label
+No results
+Waar ligt de oorsprong van 30 Seconds To Mars?
+
+property: waar oorsprong
+No wikiPageID
+Waar was de oprichting van Queen?
+
+property: waar oprichting
+No relation
+Wanneer overleed Michael Jackson?
+
+property: wanneer
+No relation
+Wat is de abstract van Linkin Park?
+
+property: abstract
+Linkin Park is een Amerikaanse rockband uit Agoura Hills, Californië. Oorspronkelijk in 1996 opgericht als Xero door de vrienden Brad Delson, Rob Bourdon en Mike Shinoda, bestaan zij nu ook uit Joseph Hahn, Dave "Phoenix" Farrell en Chester Bennington. Linkin Park brak in 2000 door met het debuutalbum Hybrid Theory, dat de diamanten status kreeg in de Verenigde Staten en multiplatina was in verschillende andere landen. De band was succesvol met de nummers In the End, Numb/Encore en recent New Divide en heeft sinds de oprichting wereldwijd meer dan zestig miljoen albums verkocht en twee Grammy's gewonnen.Met het tweede studioalbum Meteora borduurde de band voort op de mainstream nu metal-/rap-rock-sound waarmee het op Hybrid Theory beroemd werd. Op het in 2007 uitgebrachte Minutes to Midnight verliet de band grotendeels de nu metal en ging richting de alternatieve rock, met nadruk op experimenteren met andere muziekstijlen lag. Het in elektronische rock gedoopte A Thousand Suns kwam in september 2010 uit. Op 22 juni 2012 kwam het vijfde studioalbum Living Things uit dat de vorige albums samenvoegde met als doel een nieuw geluid te creëren. In de zomer van 2014 komt het zesde studioalbum uit, namelijk The Hunting Party, dat volgens de bandleden een veel harder geluid heeft.
+Linkin Park is een Amerikaanse rockband uit Agoura Hills, Californië. Oorspronkelijk in 1996 opgericht als Xero door de vrienden Brad Delson, Rob Bourdon en Mike Shinoda, bestaan zij nu ook uit Joseph Hahn, Dave "Phoenix" Farrell en Chester Bennington. Linkin Park brak in 2000 door met het debuutalbum Hybrid Theory, dat de diamanten status kreeg in de Verenigde Staten en multiplatina was in verschillende andere landen. De band was succesvol met de nummers In the End, Numb/Encore en recent New Divide en heeft sinds de oprichting wereldwijd meer dan zestig miljoen albums verkocht en twee Grammy's gewonnen.Met het tweede studioalbum Meteora borduurde de band voort op de mainstream nu metal-/rap-rock-sound waarmee het op Hybrid Theory beroemd werd. Op het in 2007 uitgebrachte Minutes to Midnight verliet de band grotendeels de nu metal en ging richting de alternatieve rock, met nadruk op experimenteren met andere muziekstijlen lag. Het in elektronische rock gedoopte A Thousand Suns kwam in september 2010 uit. Op 22 juni 2012 kwam het vijfde studioalbum Living Things uit dat de vorige albums samenvoegde met als doel een nieuw geluid te creëren. In de zomer van 2014 kwam het zesde studioalbum uit, namelijk The Hunting Party.
+Wat is de artiest van If I never see your face again?
+
+property: artiest
+No relation
+Wat is de band van Ilse DeLange?
+
+property: band
+No relation
+Wat is de band van John Lennon?
+
+property: band
+No relation
+Wat is de bezetting van The Beatles?
+
+property: bezetting
+Drummer
+Zanger
+Bassist
+Gitarist
+Wat is de bezigheid van Marco Borsato?
+
+property: bezigheid
+No relation
+Wat is de bijnaam van Amy Winehouse
+
+property: bijnaam
+Queen of soul
+wat is de bijnaam van Bono?
+
+property: bijnaam
+Bono
+Wat is de bijnaam van Elvis?
+
+property: bijnaam
+No results
+Wat is de bijnaam van Lenny Kravitz?
+
+property: bijnaam
+The Krav
+Wat is de bijnaam van Madonna
+
+property: bijnaam
+The Queen of Pop , Madge , Goddess of Pop
+The Queen of Pop, Madge
+The Queen of Pop, Madge, M
+Wat is de bijnaam van Steve Cropper?
+
+property: bijnaam
+The Colonel
+Wat is de bijnaam van Usher?
+
+property: bijnaam
+Usher , The King of R&B
+Wat is de duur/lengte van Child in Time?
+
+property: duur/lengte
+No relation
+Wat is de duur van 'We are the champions'?
+
+property: duur
+No relation
+Wat is de echte naam van Eminem?
+
+property: echte naam
+Marshall Bruce Mathers III
+Wat is de echte naam van Ringo Starr?
+
+property: echte naam
+No results
+Wat is de echte/volledige naam van Fink?
+
+property: echte/volledige naam
+No relation
+Wat is de geboortedag van Justin Bieber?
+
+property: geboortedag
+No relation
+Wat is de geboortedatum van Anouk?
+
+property: geboortedatum
+08-04-1975
+Wat is de geboortedatum van Bach?
+
+property: geboortedatum
+21-03-1685
+Wat is de geboortedatum van Bob Dylan?
+
+property: geboortedatum
+24-05-1941
+Wat is de geboortedatum van Chris Martin?
+
+property: geboortedatum
+02-03-1977
+Wat is de geboortedatum van Elvis?
+
+property: geboortedatum
+08-01-1935
+Wat is de geboortedatum van Enrique Iglesias
+
+property: geboortedatum
+08-05-1975
+Wat is de geboortedatum van Freddie Mercury?
+
+property: geboortedatum
+05-09-1946
+Wat is de geboortedatum van Herman Brood?
+
+property: geboortedatum
+05-11-1946
+Wat is de geboortedatum van Jan Smit?
+
+property: geboortedatum
+31-12-1985
+Wat is de geboortedatum van Jimi Hendrix?
+
+property: geboortedatum
+27-11-1942
+Wat is de geboortedatum van John Mayer?
+
+property: geboortedatum
+16-10-1977
+Wat is de geboortedatum van Justin Timberlake?
+
+property: geboortedatum
+31-01-1981
+Wat is de geboortedatum van Loud Reed?
+
+property: geboortedatum
+No wikiPageID
+Wat is de geboortedatum van Maria Mena?
+
+property: geboortedatum
+19-02-1986
+Wat is de geboortedatum van Otis Redding?
+
+property: geboortedatum
+09-09-1941
+Wat is de geboortedatum van Pharrell Williams?
+
+property: geboortedatum
+05-04-1973
+Wat is de geboorteplaats van Katy Perry?
+
+property: geboorteplaats
+Californië
+Santa Barbara (Californië)
+Wat is de geloofsovertuiging van Mozart?
+
+property: geloofsovertuiging
+No relation
+Wat is de genre van The Kooks?
+
+property: genre
+Britpop
+Indierock
+Wat is de herkomstplaats van The Beatles?
+
+property: herkomstplaats
+No relation
+Wat is de herkomst van The Kooks?
+
+property: herkomst
+Engeland
+Brighton
+Wat is de lengte van Sweet Goodbyes?
+
+property: lengte
+No relation
+Wat is de muziekstijl van Bach?
+
+property: muziekstijl
+No results
+Wat is de naam van Bono?
+
+property: naam
+Paul David Hewson
+Wat is de naam van Bono?
+
+property: naam
+Paul David Hewson
+Wat is de naam van de zangeres die k3 verliet?
+
+No Concept
+Wat is de naam van van Beethov?
+
+property: naam
+No wikiPageID
+Wat is de officiele website van One Direction?
+
+property: officiele website
+No wikiPageID
+Wat is de oorsprong van Coldplay?
+
+property: oorsprong
+Londen
+Engeland
+Wat is de oorsprong van de 'Dire Straits'
+
+property: oorsprong
+Newcastle upon Tyne
+Wat is de oorsprong van The Beatles?
+
+property: oorsprong
+Verenigd Koninkrijk
+Liverpool
+Wat is de oorsprong van The Beatles?
+
+property: oorsprong
+Verenigd Koninkrijk
+Liverpool
+Wat is de oorsprong van The Foo Fighters?
+
+property: oorsprong
+Verenigde Staten
+Seattle
+Washington (staat)
+Wat is de oorsprong van The Who?
+
+property: oorsprong
+Londen
+Engeland
+Shepherd's Bush (wijk)
+Wat is de oorsprong van Toto?
+
+property: oorsprong
+Verenigde Staten
+Californië
+Los Angeles
+Wat is de oorzaak van de dood van John Lennon?
+
+property: oorzaak dood
+No relation
+Wat is de oprichtingsdatum van Queen?
+
+property: oprichtingsdatum
+No relation
+Wat is de platenmaatschappij van Guus Meeuwis
+
+property: platenmaatschappij
+No results
+Wat is de platenmaatschappij van John Mayer?
+
+property: platenmaatschappij
+No results
+Wat is de releasedatum van Dat ik je mis?
+
+No Concept
+Wat is de religie van Bono?
+
+property: religie
+No relation
+Wat is de religie van Mozart?
+
+property: religie
+No relation
+Wat is de startdatum van The Beatles?
+
+property: startdatum
+No relation
+Wat is de sterfdag van Freddy Mercury?
+
+property: sterfdag
+No relation
+Wat is de sterfdatum van Amy Winehouse?
+
+property: sterfdatum
+No relation
+Wat is de sterfdatum van Frank Sinatra?
+
+property: sterfdatum
+No relation
+Wat is de sterfdatum van Freddie Mercury?
+
+property: sterfdatum
+No relation
+Wat is de sterfdatum van Herman Brood?
+
+property: sterfdatum
+No relation
+Wat is de sterfdatum van Jeff Buckley?
+
+property: sterfdatum
+No relation
+Wat is de sterfdatum van Kurt Cobain?
+
+property: sterfdatum
+No relation
+Wat is de stijl van Coldplay
+
+property: stijl
+Alternatieve rock
+Wat is de url van The Stones?
+
+property: url
+http://www.rollingstones.com
+Wat is de volledige naam van Avril Lavigne?
+
+property: volledige naam
+Avril Ramona Lavigne
+Wat is de volledige naam van Avril Lavigne?
+
+property: volledige naam
+Avril Ramona Lavigne
+Wat is de volledige naam van Dotan?
+
+property: volledige naam
+No wikiPageID
+Wat is de volledige naam van Guus Meeuwis?
+
+property: volledige naam
+Gustaaf Stephanus Modestus Meeuwis
+Wat is de volledige naam van Guy Berryman?
+
+property: volledige naam
+Guy Rupert Berryman
+Wat is de volledige naam van Jan Smit?
+
+property: volledige naam
+Johannes Hendricus Maria Smit
+Wat is de volledige naam van John Fogerty?
+
+property: volledige naam
+John Cameron Fogerty
+Wat is de volledige naam van Paul McCartney
+
+property: volledige naam
+James Paul McCartney
+Wat is de webite van The Beatles?
+
+property: webite
+No relation
+Wat is de website van 30 Seconds To Mars?
+
+property: website
+No wikiPageID
+Wat is de website van Coldplay?
+
+property: website
+http://www.coldplay.com
+Wat is de website van David Bowie ?
+
+property: website
+http://www.davidbowie.com/
+Wat is de website van de Red Hot Chili Peppers?
+
+property: website
+http://www.redhotchilipeppers.com
+Wat is de website van Fall Out Boy?
+
+property: website
+http://www.falloutboyrock.com
+Wat is de website van Justin Bieber?
+
+property: website
+http://www.justinbiebermusic.com/
+Wat is de website van Miley Cyrus
+
+property: website
+http://www.mileycyrus.com/
+Wat is de website van Nick en Simon?
+
+No Concept
+Wat is de website van Stromae?
+
+property: website
+http://www.stromae.net/
+Wat is een instrument van Jimmy Hendrix?
+
+property: instrument
+No wikiPageID
+Wat is een samenvatting over The Black Keys?
+
+property: samenvatting
+No relation
+Wat is het beginjaar van Adele
+
+property: beginjaar
+2008
+Wat is het beginjaar van Muse?
+
+property: beginjaar
+1994
+Wat is het beginjaar van Norah Jones?
+
+property: beginjaar
+2001
+Wat is het beroep van Avril Lavigne?
+
+property: beroep
+No relation
+Wat is het beroep van Bono?
+
+property: beroep
+No relation
+Wat is het beroep van Bono?
+
+property: beroep
+No relation
+Wat is het beroep van Justin Timberlake?
+
+property: beroep
+No relation
+Wat is het beroep van Nicki Minaj?
+
+property: beroep
+No relation
+Wat is het beroep van Roger Waters?
+
+property: beroep
+No relation
+Wat is het budget van The Million Dollar Hotel?
+
+property: budget
+No relation
+Wat is het debuutalbum van Boudewijn de Groot?
+
+property: debuutalbum
+No relation
+Wat is het geboortejaar van John Lennon?
+
+property: geboortejaar
+No relation
+wat is het geloof van Bono?
+
+property: geloof
+overtuigd christen
+Wat is het geloof van Bono?
+
+property: geloof
+overtuigd christen
+Wat is het geloof van Bono?
+
+property: geloof
+overtuigd christen
+Wat is het genre van Alanis Morissette?
+
+property: genre
+Rockmuziek
+Wat is het genre van Amy Winehouse?
+
+property: genre
+Jazz
+Soul
+Rhythm-and-blues
+Ska (muziek)
+Wat is het genre van Bob Marley?
+
+property: genre
+Reggae
+Rocksteady
+Ska (muziek)
+Wat is het genre van Chuck Berry?
+
+property: genre
+Rock-'n-roll
+Blues
+Wat is het genre van Joan Baez?
+
+property: genre
+Folk
+Wat is het genre van Marco Borsato?
+
+property: genre
+Nederpop
+Popmuziek
+Wat is het genre van 'Paloma Blanca'?
+
+property: genre
+No results
+Wat is het genre van Ringo Starr?
+
+property: genre
+Rock
+Rock-'n-roll
+Popmuziek
+Skiffle
+Wat is het genre van Taylor Swift?
+
+property: genre
+Popmuziek
+Pop rock
+Country music
+Wat is het genre van The Red Hot Chilli Peppers?
+
+property: genre
+No wikiPageID
+Wat is het genre van The Rolling Stones?
+
+property: genre
+Rock
+Rock-'n-roll
+Blues
+Wat is het genre van Tom Waits?
+
+property: genre
+Rock
+Experimentele muziek
+Wat is het genre van U2?
+
+property: genre
+Rock
+Alternatieve rock
+Popmuziek
+New wave
+Wat is het instrument van Keith Moon?
+
+property: instrument
+No relation
+Wat is het instrument van Phil Collins?
+
+property: instrument
+No relation
+Wat is het instrument van Ringo Starr?
+
+property: instrument
+No relation
+Wat is het instrument van Wibi Soerjadi?
+
+property: instrument
+No relation
+Wat is het invoerjaar van het Wilhelmus?
+
+No Concept
+Wat is het label van Chris Martin?
+
+property: label
+No results
+Wat is het label van Ed Sheeran?
+
+property: label
+No wikiPageID
+Wat is het label van Opgezwolle?
+
+property: label
+TopNotch
+Wat is het label van Steve Lukather?
+
+property: label
+No results
+Wat is het label van The Black Keys?
+
+property: label
+V2 Records
+Wat is het land van Johnny Cash?
+
+property: land
+No relation
+Wat is het land van oorsprong van The Beatles?
+
+property: land oorsprong
+Verenigd Koninkrijk
+Liverpool
+Wat is het langste album van Pink Floyd?
+
+property: langste album
+No relation
+Wat is het platenlabel van Chris Brown?
+
+property: platenlabel
+No relation
+Wat is het platenlabel van Maroon 5?
+
+property: platenlabel
+No relation
+Wat is het startjaar van De Dijk (band)?
+
+property: startjaar
+No relation
+Wat is het startjaar van Rammstein?
+
+property: startjaar
+No relation
+Wat is het sterfjaar van Herman Brood?
+
+property: sterfjaar
+No relation
+Wat is het vak van Janine Jansen?
+
+property: vak
+No relation
+Wat was de bijnaam van Amy Winehouse?
+
+property: bijnaam
+Queen of soul
+Wat was de bijnaam van Amy Winehouse?
+
+property: bijnaam
+Queen of soul
+Wat was de bijnaam van Britney Spears?
+
+property: bijnaam
+Princess of Pop
+Wat was het album van Clocks?
+
+property: album
+No results
+Wat zijn de albums van Creedence Clearwater Revival?
+
+property: albums
+No results
+Wat zijn de albums van Linkin Park?
+
+property: albums
+No results
+Wat zijn de albums van U2?
+
+property: albums
+No results
+Wat zijn de beroepen van Brian May?
+
+property: beroepen
+No relation
+Wat zijn de bijnamen van Michael Jackson?
+
+property: bijnamen
+King of Pop, Wacko Jacko
+Wat zijn de functies van Coldplay
+
+property: functies
+Drummer
+Gitarist
+Basgitarist
+Wat zijn de genres van Andre Hazes?
+
+property: genres
+Nederpop
+Levenslied
+Wat zijn de genres van Linkin Park?
+
+property: genres
+Grunge
+Alternatieve rock
+Nu metal
+Elektronische muziek
+Rapcore
+Alternatieve metal
+Modern rock
+Rap-rock
+Wat zijn de genres van Pink Floyd?
+
+property: genres
+Elektronische muziek
+Progressieve rock
+Psychedelische muziek
+Wat zijn de instrumenten van Adele
+
+property: instrumenten
+No relation
+Wat zijn de instrumenten van Avril Lavigne?
+
+property: instrumenten
+No relation
+Wat zijn de instrumenten van Avril Lavigne?
+
+property: instrumenten
+No relation
+Wat zijn de instrumenten van Billy Joel?
+
+property: instrumenten
+No relation
+Wat zijn de instrumenten van Bono?
+
+property: instrumenten
+No relation
+Wat zijn de instrumenten van Paul McCartney?
+
+property: instrumenten
+No relation
+Wat zijn de instrumenten van Yann Tiersen?
+
+property: instrumenten
+No relation
+Wat zijn de leden van Maroon 5?
+
+property: leden
+Adam Levine
+James Valentine
+Wat zijn de liedjes van Queen
+
+property: liedjes
+No relation
+Wat zijn de muziekinstrumenten van Justin Timberlake?
+
+property: muziekinstrumenten
+No relation
+Wat zijn de muziekstijlen van John Coltrane?
+
+property: muziekstijlen
+No relation
+Wat zijn de namen van Guus Meeuwis
+
+property: namen
+No relation
+Wat zijn de platenmaatschappijen van de David Guetta?
+
+property: platenmaatschappijen
+No results
+Wat zijn de platenmaatschappijen van U2?
+
+property: platenmaatschappijen
+Columbia Records
+Island Records
+Mercury Records
+Wat zijn de rollen van The Rolling Stones?
+
+property: rollen
+No relation
+Wat zijn de roots van de Who?
+
+No Concept
+Wat zijn de voormalige leden van Metallica
+
+property: voormalige leden
+Cliff Burton
+Jason Newsted
+Ron McGovney
+Welk bandlid van Maroon 5 speelt in de film Begin Again?
+
+property: bandlid film
+No wikiPageID
+Welke albums zijn van Amon Tobin?
+
+property: albums
+No results
+Welke artisten brachten samen het nummer Rampeneren uit?
+
+No Concept
+Welke genres worden toegeschreven aan de muziek van Muse?
+
+property: genres toegeschreven muziek
+No relation
+Welke instrumenten bespeelt Avril Lavigne?
+
+property: instrumenten
+No relation
+Welke instrumenten speelt Ringo Starr?
+
+property: instrumenten
+No relation
+Welk genre speelde Johnny Cash?
+
+property: genre
+Countrymuziek
+Rockabilly
+'Wie is beinvloed door Jimmy Hendriks?
+
+property: beinvloed
+No wikiPageID
+Wie is de artiest van Hocus Pocus (lied)?
+
+property: artiest
+No relation
+Wie is de artiest van Nevermind?
+
+property: artiest
+No relation
+Wie is de artiest van Stairway to Heaven?
+
+property: artiest
+No relation
+Wie is de artiest van The Wall?
+
+property: artiest
+No relation
+Wie is de manager van Queen?
+
+property: manager
+No relation
+Wie is de manager van U2?
+
+property: manager
+No relation
+Wie is de partner van Johnny Cash?
+
+property: partner
+No relation
+Wie is de producer van Escapology?
+
+property: producer
+No relation
+Wie is de schrijver van The Scientist?
+
+property: schrijver
+Chris Martin
+Will Champion
+Guy Berryman
+Jonny Buckland
+Wie is de zanger van It Was a Very Good Year?
+
+property: zanger
+No relation
+Wie is het record label van Deep Purple?
+
+property: record
+No relation
+Wie maakte het album El Camino?
+
+property: album
+No results
+Wie waren de bandleden van The Rolling Stones?
+
+property: bandleden
+Keith Richards
+Mick Jagger
+Charlie Watts
+Ron Wood
+Darryl Jones
+Wie waren de bandleden van U2?
+
+property: bandleden
+Bono (zanger)
+Adam Clayton
+Larry Mullen jr.
+The Edge (David Evans)
+Wie was de band van I want it all?
+
+property: band
+No relation
+Wie was de schrijver van Smooth Criminal?
+
+property: schrijver
+Michael Jackson
+Wie was de vrouw van Johnny Cash
+
+property: vrouw
+No relation
+Wie zijn de bandleden van Coldplay?
+
+property: bandleden
+Chris Martin
+Will Champion
+Guy Berryman
+Jonny Buckland
+Wie zijn de bandleden van Coldplay?
+
+property: bandleden
+Chris Martin
+Will Champion
+Guy Berryman
+Jonny Buckland
+Wie zijn de groepsleden van de Eagles?
+
+No Concept
+Wie zijn de kinderen van Rudi Carrell?
+
+property: kinderen
+No relation
+Wie zijn de leden van Coldplay
+
+property: leden
+Chris Martin
+Will Champion
+Guy Berryman
+Jonny Buckland
+Wie zijn de leden van Coldplay?
+
+property: leden
+Chris Martin
+Will Champion
+Guy Berryman
+Jonny Buckland
+Wie zijn de leden van Counting Crows?
+
+property: leden
+Adam Duritz
+David Bryson
+Wie zijn de leden van de Eagles?
+
+No Concept
+Wie zijn de leden van Fleetwood Mac?
+
+property: leden
+No results
+Wie zijn de leden van Green Day?
+
+property: leden
+Michael Pritchard
+Tré Cool
+Billie Joe Armstrong
+Jason White
+Wie zijn de leden van K3?
+
+property: leden
+Karen Damen
+Kristel Verbeke
+Josje Huisman
+Wie zijn de leden van Orbital?
+
+property: leden
+No results
+Wie zijn de leden van The Beatles?
+
+property: leden
+George Harrison
+Paul McCartney
+Ringo Starr
+John Lennon
+Wie zijn de leden van The Beatles?
+
+property: leden
+George Harrison
+Paul McCartney
+Ringo Starr
+John Lennon
+Wie zijn de leden van The Beatles?
+
+property: leden
+George Harrison
+Paul McCartney
+Ringo Starr
+John Lennon
+Wie zijn de leden van 'The Golden Earring'?
+
+property: leden
+Cesar Zuiderwijk
+Rinus Gerritsen
+Barry Hay
+George Kooymans
+Wie zijn de oudleden van Metallica?
+
+property: oudleden
+No relation
+Wie zijn de sukkels van The Who?
+
+property: sukkels
+No relation
+Wie zijn de voormalige bandleden van The Beatles?
+
+property: voormalige bandleden
+No relation
+Wie zijn de voormalige leden van BZN?
+
+property: voormalige leden
+Dirk van der Horst
+Thomas Tol
+Anny Schilder
+Cees Tol
+Jan Veerman
+Maribelle
+Wie zijn lid geweest van Queen?
+
+property: geweest lid
+No relation
+Wie zijn lid van de band Queen?
+
+No Concept
+Wie zijn lid van de Rolling Stones?
+
+property: lid
+No results
+Wie zijn lid van The Black Eyed Peas?
+
+property: lid
+No results
+Wie zijn oudleden van Genesis?
+property: oudleden
+No relation
