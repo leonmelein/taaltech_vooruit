@@ -246,7 +246,7 @@ def find_relation(Property):
         "soort"             : "genre",
         "muziekstijl"       : "genre",
         "muziekstijlen"     : "genre",
-        "genres toegeschreven muziek",: "genre",
+        "genres toegeschreven muziek": "genre",
         "herkomst"          : "oorsprong",
         "waar herkomst"     : "oorsprong",
         "oorsprong"         : "oorsprong",
