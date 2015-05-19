@@ -26,6 +26,11 @@ def main(question, anchors):
 
         # # Property
         relation = find_relation(Property)
+        answer = ""
+        if "hoeveel" in Property:
+            answer = query(source_DBPedia, construct_query(wikiID, relation,"COUNT(?result)"))
+        else:
+            answer = query(source_DBPedia, construct_query(wikiID, relation))
 
         # Retrieve answer
         answer = query(source_DBPedia, construct_query(wikiID, relation))
@@ -325,6 +330,9 @@ def find_relation(Property):
         "albums uitgegeven" : "albums",
         "albums gemaakt"    : "albums",
         "album band"        : "albums",
+        "hoeveel albums"    : "albums",
+        "hoeveel albums gemaakt": "albums",
+        "hoeveel alubms geproduceerd":"albums",
         "beginjaar"         : "beginjaar",
         "wanneer begonnen"  : "beginjaar",
         "begin datum"       : "beginjaar",
@@ -386,7 +394,7 @@ def find_relation(Property):
     return relation
 
 
-def construct_query(wikiPageID, relation):
+def construct_query(wikiPageID, relation, selection="STR(?result)"):
     baseQuery = """
                 PREFIX prop-nl:     <http://nl.dbpedia.org/property/>
                 PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
@@ -395,13 +403,13 @@ def construct_query(wikiPageID, relation):
                 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
                 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 
-                SELECT DISTINCT STR(?result)
+                SELECT DISTINCT {}
                 WHERE  {{
                     ?identity dbpedia-owl:wikiPageID {} .
                     {}
                 }}ORDER BY ?result
                 """
-    return baseQuery.format(wikiPageID, relation)
+    return baseQuery.format(selection, wikiPageID, relation)
 
 
 def query(source, query):
