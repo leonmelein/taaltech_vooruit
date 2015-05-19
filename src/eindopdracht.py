@@ -116,6 +116,8 @@ def analyze_question(xml):
     # Check if we've found a property
     if len(Property) == 0:
         raise NoPropertyException
+    else:
+        print("property: " + Property)
 
     return Concept, Property
 
@@ -304,7 +306,7 @@ def construct_query(wikiPageID, relation):
                 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
                 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 
-                SELECT STR(?result)
+                SELECT DISTINCT STR(?result)
                 WHERE  {{
                     ?identity dbpedia-owl:wikiPageID {} .
                     {}
@@ -423,6 +425,7 @@ if __name__ == "__main__":
         count = 1
         with open(sys.argv[1], 'r') as questions:
             for question in questions:
+                print(question)
                 theList = main(question, anchors)
                 theList = [count] + theList
                 completeList.append(theList)
