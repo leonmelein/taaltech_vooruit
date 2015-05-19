@@ -177,7 +177,8 @@ def find_relation(Property):
         "website"           : "?identity prop-nl:website ?result",
         "label"             : "?identity prop-nl:recordLabel ?result",
         "abstract"          : "?identity dbpedia-owl:abstract ?result",
-        "albums"            : "?album dbpedia-owl:identity ?result",
+        "albums"            : "?result rdf:type dbpedia-owl:Album. ?result dbpedia-owl:artist ?identity",
+        "liedjes"           : "?result rdf:type dbpedia-owl:Song. ?result dbpedia-owl:artist ?identity",
         "beginjaar"         : "?identity prop-nl:jarenActief ?result",
         "geloof"            : "?identity prop-nl:geloof ?result",
         "schreef"           : "?identity dbpedia-owl:musicalArtist ?result",
@@ -185,7 +186,9 @@ def find_relation(Property):
         "band"              : "?identity dbpedia-owl:musicBand ?result",
         "bezigheid"         : "?identity dbpedia-owl:occupation ?result",
         "duur"              : "?identity prop-nl:duur ?result",
-        "doodsoorzaak"      : "?identity prop-nl:oorzaakDood ?result"
+        "doodsoorzaak"      : "?identity prop-nl:oorzaakDood ?result",
+        "budget"            : "?identity prop-nl:budget ?result",
+        "instrument"        : "?identity prop-nl:instrument ?result"
     }
 
     subrelations = {
@@ -194,6 +197,7 @@ def find_relation(Property):
         "verjaardag"        : "geboortedatum",
         "datum geboren"     : "geboortedatum",
         "geboortedag"       : "geboortedatum",
+        "geboortejaar"      : "geboortedatum",
         "waar geboren"      : "waar geboren",
         "geboorteplaats"    : "waar geboren",
         "land geboren"      : "waar geboren",
@@ -249,11 +253,13 @@ def find_relation(Property):
         "waar oorsprong"    : "oorsprong",
         "waar oprichting"   : "oorsprong",
         "herkomstplaats"    : "oorsprong",
+        "land"              : "oorsprong",
         "voormalige leden"  : "voormalige leden",
         "voormalige lid"    : "voormalige leden",
         "ex-leden"          : "voormalige leden",
         "ex-leden rockband" : "voormalige leden",
         "oudleden"          : "voormalige leden",
+        "geweest lid"       : "voormalige leden",
         "bezetting"         : "bezetting",
         "functie"           : "bezetting",
         "functies"          : "bezetting",
@@ -262,6 +268,8 @@ def find_relation(Property):
         "wanneer overleden" : "overlijdensdatum",
         "dag overleden"     : "overlijdensdatum",
         "jaar overleden"    : "overlijdensdatum",
+        "sterfdag"          : "overlijdensdatum",
+        "sterfdatum"        : "overlijdensdatum",
         "bijnaam"           : "bijnaam",
         "bijnamen"          : "bijnaam",
         "wel genoemd"       : "bijnaam",
@@ -297,6 +305,7 @@ def find_relation(Property):
         "labels muziek uitgebracht" : "label",
         "platenlabel"       : "label",
         "abstract"          : "abstract",
+        "samenvatting"      : "abstract",
         "platen"            : "albums",
         "plaat"             : "albums",
         "albums"            : "albums",
@@ -316,6 +325,8 @@ def find_relation(Property):
         "wanneer opgericht" : "beginjaar",
         "jaar"              : "beginjaar",
         "oprichtingsdatum"  : "beginjaar",
+        "startdatum"        : "beginjaar",
+        "startjaar"         : "beginjaar",
         "geloof"            : "geloof",
         "geloofsovertuiging": "geloof",
         "religie"           : "geloof",
@@ -328,10 +339,15 @@ def find_relation(Property):
         "band"              : "band",
         "bezigheid"         : "bezigheid",
         "beroep"            : "bezigheid",
+        "vak"               : "bezigheid",
+        "beroepen"          : "bezigheid",
         "duur"              : "duur",
         "lengte"            : "duur",
         "doodsoorzaak"      : "doodsoorzaak",
-        "oorzaak dood"      : "doodsoorzaak"
+        "oorzaak dood"      : "doodsoorzaak",
+        "budget"            : "budget",
+        "instrument"        : "instrument",
+        "instrumenten"      : "instrument"
     }
 
     relation = None
