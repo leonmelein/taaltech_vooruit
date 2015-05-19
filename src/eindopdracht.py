@@ -177,8 +177,7 @@ def find_relation(Property):
         "website"           : "?identity prop-nl:website ?result",
         "label"             : "?identity prop-nl:recordLabel ?result",
         "abstract"          : "?identity dbpedia-owl:abstract ?result",
-        "albums"            : "?result rdf:type dbpedia-owl:Album. ?result dbpedia-owl:artist ?identity",
-        "liedjes"           : "?result rdf:type dbpedia-owl:Song. ?result dbpedia-owl:artist ?identity",
+        "albums"            : "?result rdf:type dbpedia-owl:Album. ?result prop-nl:artiest ?identity",
         "beginjaar"         : "?identity prop-nl:jarenActief ?result",
         "geloof"            : "?identity prop-nl:geloof ?result",
         "schreef"           : "?identity dbpedia-owl:musicalArtist ?result",
@@ -188,7 +187,13 @@ def find_relation(Property):
         "duur"              : "?identity prop-nl:duur ?result",
         "doodsoorzaak"      : "?identity prop-nl:oorzaakDood ?result",
         "budget"            : "?identity prop-nl:budget ?result",
-        "instrument"        : "?identity prop-nl:instrument ?result"
+        "instrument"        : "?identity prop-nl:instrument ?result",
+        "liedjes"           : "?result rdf:type dbpedia-owl:Single. ?result prop-nl:artiest ?identity",
+        "artiest"           : "?identity prop-nl:artiest ?result",
+        "manager"           : "?identity prop-nl:manager ?result",
+        "partner"           : "?identity prop-nl:partner ?result",
+        "producer"          : "?identity prop-nl:producer ?result",
+        "kinderen"          : "?identity prop-nl:kinderen ?result"
     }
 
     subrelations = {
@@ -214,6 +219,7 @@ def find_relation(Property):
         "echte naam"        : "naam",
         "hele naam"         : "naam",
         "echte/volledige naam": "naam",
+        "namen"             : "naam",
         "leden"             : "leden",
         "bandleden"         : "leden",
         "leden band"        : "leden",
@@ -239,6 +245,8 @@ def find_relation(Property):
         "muzieksoort"       : "genre",
         "soort"             : "genre",
         "muziekstijl"       : "genre",
+        "muziekstijlen"     : "genre",
+        "genres toegeschreven muziek",: "genre",
         "herkomst"          : "oorsprong",
         "waar herkomst"     : "oorsprong",
         "oorsprong"         : "oorsprong",
@@ -264,6 +272,7 @@ def find_relation(Property):
         "functie"           : "bezetting",
         "functies"          : "bezetting",
         "samengesteld"      : "bezetting",
+        "rollen"            : "bezetting",
         "overlijdensdatum"  : "overlijdensdatum",
         "wanneer overleden" : "overlijdensdatum",
         "dag overleden"     : "overlijdensdatum",
@@ -304,6 +313,7 @@ def find_relation(Property):
         "platenmaatschappijen gepubliceerd" : "label",
         "labels muziek uitgebracht" : "label",
         "platenlabel"       : "label",
+        "record"            : "label",
         "abstract"          : "abstract",
         "samenvatting"      : "abstract",
         "platen"            : "albums",
@@ -347,7 +357,18 @@ def find_relation(Property):
         "oorzaak dood"      : "doodsoorzaak",
         "budget"            : "budget",
         "instrument"        : "instrument",
-        "instrumenten"      : "instrument"
+        "instrumenten"      : "instrument",
+        "liedjes"           : "liedjes",
+        "single"            : "liedjes",
+        "singles"           : "liedjes",
+        "liedje"            : "liedjes",
+        "artiest"           : "artiest",
+        "zanger"            : "artiest",
+        "band"              : "artiest",
+        "manager"           : "manager",
+        "partner"           : "partner",
+        "producer"          : "producer",
+        "kinderen"          : "kinderen"
     }
 
     relation = None
