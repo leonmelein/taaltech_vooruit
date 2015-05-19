@@ -353,6 +353,24 @@ def query(source, query):
     except:
         return None
 
+def resolveRDFS(answer):
+    query = """
+    PREFIX prop-nl: <http://nl.dbpedia.org/property/>
+    PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+    PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+    SELECT DISTINCT STR(?answerstr)
+    WHERE {
+    <"""+answer+"""> rdfs:label ?answerstr
+    } 
+    """
+    sparql = SPARQLWrapper('http://nl.dbpedia.org/sparql')
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+    for result in results["results"]["bindings"]:
+        for arg in result :
+            answer = result[arg]["value"]
+    return answer
 
 def output(result):
     """
@@ -369,6 +387,8 @@ def output(result):
         for item in results:
             for argument in item:
                 answer = item[argument]["value"]
+                if answer[0:17] == "http://nl.dbpedia":
+                    answer = resolveRDFS(answer)
                 try:
                     parsableDate = answer.split("+")[0]
                     localDate = datetime.strptime(parsableDate, "%Y-%m-%d")
