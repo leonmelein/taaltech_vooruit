@@ -263,6 +263,7 @@ def find_relation(Property):
         "herkomstplaats"    : "oorsprong",
         "land"              : "oorsprong",
         "voormalige leden"  : "voormalige leden",
+        "voormalige bandleden":"voormalige leden",
         "voormalige lid"    : "voormalige leden",
         "ex-leden"          : "voormalige leden",
         "ex-leden rockband" : "voormalige leden",
@@ -358,6 +359,8 @@ def find_relation(Property):
         "budget"            : "budget",
         "instrument"        : "instrument",
         "instrumenten"      : "instrument",
+        "muziekinstrument"  : "instrument",
+        "muziekinstrumenten": "instrument",
         "liedjes"           : "liedjes",
         "single"            : "liedjes",
         "singles"           : "liedjes",
@@ -396,7 +399,7 @@ def construct_query(wikiPageID, relation):
                 WHERE  {{
                     ?identity dbpedia-owl:wikiPageID {} .
                     {}
-                }}
+                }}ORDER BY ?result
                 """
     return baseQuery.format(wikiPageID, relation)
 
