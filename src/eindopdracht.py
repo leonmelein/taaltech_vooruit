@@ -416,7 +416,6 @@ def query(source, query):
     :return: het resultaat als JSON.
     """
     try:
-        print(query)
         sparql = SPARQLWrapper(source)
         sparql.setQuery(query)
         sparql.setReturnFormat(JSON)
