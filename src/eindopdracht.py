@@ -27,13 +27,11 @@ def main(question, anchors):
         # # Property
         relation = find_relation(Property)
         answer = ""
-        if "hoeveel" in Property:
+        if Property[0:7] == "hoeveel":
             answer = query(source_DBPedia, construct_query(wikiID, relation,"COUNT(?result)"))
         else:
             answer = query(source_DBPedia, construct_query(wikiID, relation))
 
-        # Retrieve answer
-        answer = query(source_DBPedia, construct_query(wikiID, relation))
         answerList = output(answer)
         theList = theList + answerList
         return theList
@@ -407,7 +405,7 @@ def construct_query(wikiPageID, relation, selection="STR(?result)"):
                 WHERE  {{
                     ?identity dbpedia-owl:wikiPageID {} .
                     {}
-                }}ORDER BY ?result
+                }}
                 """
     return baseQuery.format(selection, wikiPageID, relation)
 
@@ -421,6 +419,7 @@ def query(source, query):
     :return: het resultaat als JSON.
     """
     try:
+        print(query)
         sparql = SPARQLWrapper(source)
         sparql.setQuery(query)
         sparql.setReturnFormat(JSON)
