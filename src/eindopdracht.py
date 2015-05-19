@@ -183,7 +183,9 @@ def find_relation(Property):
         "schreef"           : "?identity dbpedia-owl:musicalArtist ?result",
         "waar geboren"      : "?identity dbpedia-owl:birthPlace ?result",
         "band"              : "?identity dbpedia-owl:musicBand ?result",
-        "bezigheid"         : "?identity dbpedia-owl:occupation ?result"
+        "bezigheid"         : "?identity dbpedia-owl:occupation ?result",
+        "duur"              : "?identity prop-nl:duur ?result",
+        "doodsoorzaak"      : "?identity prop-nl:oorzaakDood ?result"
     }
 
     subrelations = {
@@ -191,6 +193,7 @@ def find_relation(Property):
         "wanneer geboren"   : "geboortedatum",
         "verjaardag"        : "geboortedatum",
         "datum geboren"     : "geboortedatum",
+        "geboortedag"       : "geboortedatum",
         "waar geboren"      : "waar geboren",
         "geboorteplaats"    : "waar geboren",
         "land geboren"      : "waar geboren",
@@ -206,6 +209,7 @@ def find_relation(Property):
         "naam"              : "naam",
         "echte naam"        : "naam",
         "hele naam"         : "naam",
+        "echte/volledige naam": "naam",
         "leden"             : "leden",
         "bandleden"         : "leden",
         "leden band"        : "leden",
@@ -230,6 +234,7 @@ def find_relation(Property):
         "stijl"             : "genre",
         "muzieksoort"       : "genre",
         "soort"             : "genre",
+        "muziekstijl"       : "genre",
         "herkomst"          : "oorsprong",
         "waar herkomst"     : "oorsprong",
         "oorsprong"         : "oorsprong",
@@ -243,6 +248,7 @@ def find_relation(Property):
         "stad opgericht"    : "oorsprong",
         "waar oorsprong"    : "oorsprong",
         "waar oprichting"   : "oorsprong",
+        "herkomstplaats"    : "oorsprong",
         "voormalige leden"  : "voormalige leden",
         "voormalige lid"    : "voormalige leden",
         "ex-leden"          : "voormalige leden",
@@ -274,7 +280,7 @@ def find_relation(Property):
         "officiële website band" : "website",
         "officiele website" : "website",
         "website vinden informatie":"website",
-        "dbtune website"    : "website"
+        "dbtune website"    : "website",
         "label"             : "label",
         "recordlabel"       : "label",
         "recordlabels"      : "label",
@@ -309,7 +315,10 @@ def find_relation(Property):
         "wanneer band opgericht" : "beginjaar",
         "wanneer opgericht" : "beginjaar",
         "jaar"              : "beginjaar",
+        "oprichtingsdatum"  : "beginjaar",
         "geloof"            : "geloof",
+        "geloofsovertuiging": "geloof",
+        "religie"           : "geloof",
         "schreef"           : "schreef",
         "geschreven"        : "schreef",
         "auteur"            : "schreef",
@@ -317,7 +326,12 @@ def find_relation(Property):
         "liedje geschreven" : "schreef",
         "credits"           : "schreef",
         "band"              : "band",
-        "bezigheid"         : "bezigheid"
+        "bezigheid"         : "bezigheid",
+        "beroep"            : "bezigheid",
+        "duur"              : "duur",
+        "lengte"            : "duur",
+        "doodsoorzaak"      : "doodsoorzaak",
+        "oorzaak dood"      : "doodsoorzaak"
     }
 
     relation = None
