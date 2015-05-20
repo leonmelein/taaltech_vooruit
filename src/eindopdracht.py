@@ -37,22 +37,22 @@ def main(question, anchors):
 
     except NoConceptException:
         print("No Concept")
-        theList = [question] + ["No Concept"]
+        theList = [question] 
         return theList
 
     except NoPropertyException:
         print("No Property")
-        theList = [question] + ["No Property"]
+        theList = [question]
         return theList
 
     except NoPropertyRelationException:
         print("No relation")
-        theList = [question] + ["No relation"]
+        theList = [question]
         return theList
 
     except NoResultException:
         print("No results")
-        theList = [question] + ["No results"]
+        theList = [question] 
         return theList
 
 
@@ -60,7 +60,7 @@ def main(question, anchors):
 def count_list(completeList):
     count = 0
     for question in completeList:
-        if question[2] not in ["No results", "No Property", "No Concept", "No relation"]:
+        if len(question) != 2:
             count += 1
     print("\n" + str(round((count / len(completeList)) * 100, 2)) + "% answered.")
 
@@ -73,10 +73,11 @@ def write_out(completeList):
     # writing all the questions with numbers and answers out
     for item in completeList:
         thefile.write("%s\n" % item)
+    print("Bestand uitgeschreven naar 'fileout.txt'.")
 
 
 def open_file():
-    print("Op Windows en Mac kun je het bestand direct openen!")
+    print("Op Windows, Linux en Mac kun je het bestand direct openen!")
     yesOrNo = input("Output-bestand nu openen? (y/n) >> ")
     if "y" in yesOrNo.lower():
 
@@ -131,8 +132,11 @@ if __name__ == "__main__":
 
     # Check standard input
     elif not sys.stdin.isatty():
-        for line in sys.stdin:
-            main(line, anchors)
+        for question in sys.stdin:
+            while question[-1] == "\n" or question[-1] == " ":
+                    question = question[:-1]
+            print("\n" + question)
+            main(question, anchors)
 
     # Resort to user input (or if the user chooses so: test questions)
     else:
