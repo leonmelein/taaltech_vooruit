@@ -124,13 +124,11 @@ def analyze_question(xml):
 
     return Concept, Property
 
-
 def find_resource(Concept, anchors):
     resource_id = find_wikiID(Concept, anchors)
     if resource_id is None:
-        raise NoConceptIDException
+        resource_id = "?" + Concept
     return resource_id
-
 
 def find_wikiID(Concept, anchors):
     """
@@ -185,7 +183,7 @@ def find_relation(Property):
         "geloof"            : "?identity prop-nl:geloof ?result",
         "schreef"           : "?identity dbpedia-owl:musicalArtist ?result",
         "waar geboren"      : "?identity dbpedia-owl:birthPlace ?result",
-        "band"              : "?identity dbpedia-owl:musicBand ?result",
+        "band"              : "{?identity dbpedia-owl:musicBand ?result} UNION {?identity dbpedia-owl:bandMember ?result}",
         "bezigheid"         : "?identity dbpedia-owl:occupation ?result",
         "duur"              : "?identity prop-nl:duur ?result",
         "doodsoorzaak"      : "?identity prop-nl:oorzaakDood ?result",
@@ -353,6 +351,7 @@ def find_relation(Property):
         "liedje geschreven" : "schreef",
         "credits"           : "schreef",
         "band"              : "band",
+        "bands"             : "band",
         "bezigheid"         : "bezigheid",
         "beroep"            : "bezigheid",
         "vak"               : "bezigheid",
@@ -408,10 +407,14 @@ def construct_query(wikiPageID, relation, selection="STR(?result)"):
 
                 SELECT DISTINCT {}
                 WHERE  {{
-                    ?identity dbpedia-owl:wikiPageID {} .
+                    {} .
                     {}
                 }}
                 """
+    if wikiPageID[0] == "?":
+        wikiPageID = "?identity rdfs:label '" + wikiPageID[1:] + "'@nl"
+    else:
+        wikiPageID = "?identity dbpedia-owl:wikiPageID " + wikiPageID
     return baseQuery.format(selection, wikiPageID, relation)
 
 
@@ -587,7 +590,7 @@ if __name__ == "__main__":
                 main("Wie zijn de voormalige leden van BZN?", anchors)
                 main("Wat is de website van Rihanna?", anchors)
                 main("Wat is het genre van Lady Gaga?", anchors)
-                main("Wat is het beroep van Anouk?", anchors)
+                main("Wat is het beroep van Bono?", anchors)
                 main("Wat zijn de platenmaatschappijen van de Kaiser Chiefs?", anchors)
                 main("Wat is de bezetting van The Wombats?", anchors)
                 main("Wat is de oorsprong van de Arctic Monkeys?", anchors)
