@@ -162,12 +162,12 @@ def find_relation(Property):
         "geboortedatum"     : "?identity dbpedia-owl:birthDate ?result",
         "naam"              : "?identity dbpedia-owl:longName ?result",
         "leden"             : "?identity dbpedia-owl:bandMember ?result",
-        "genre"             : "?identity dbpedia-owl:genre ?result",
+        "genre"             : "{?identity dbpedia-owl:genre ?result} UNION {?identity prop-nl:stijl ?result}",
         "oorsprong"         : "?identity dbpedia-owl:origin ?result",
         "voormalige leden"  : "?identity dbpedia-owl:formerBandMember ?result",
         "bezetting"         : "?identity prop-nl:functie ?result",
         "overlijdensdatum"  : "?identity dbpedia-owl:deathDate ?result",
-        "bijnaam"           : "?identity prop-nl:bijnaam ?result",
+        "bijnaam"           : "{?identity prop-nl:bijnaam ?result} UNION {?identity foaf:nick ?result}",
         "uitgavedatum"      : "{?identity dbpedia-owl:releaseDate ?result} UNION {?identity prop-nl:releasedatum ?result}",
         "schrijvers"        : "?identity dbpedia-owl:writer ?result",
         "website"           : "?identity prop-nl:website ?result",
@@ -175,21 +175,22 @@ def find_relation(Property):
         "abstract"          : "?identity dbpedia-owl:abstract ?result",
         "albums"            : "?result rdf:type dbpedia-owl:Album. ?result prop-nl:artiest ?identity",
         "beginjaar"         : "?identity prop-nl:jarenActief ?result",
-        "geloof"            : "?identity prop-nl:geloof ?result",
+        "geloof"            : "{?identity prop-nl:geloof ?result} UNION {?identity prop-nl:religie ?result}",
         "schreef"           : "?identity dbpedia-owl:musicalArtist ?result",
         "waar geboren"      : "?identity dbpedia-owl:birthPlace ?result",
         "band"              : "{?identity dbpedia-owl:musicBand ?result} UNION {?identity dbpedia-owl:bandMember ?result}",
-        "bezigheid"         : "?identity dbpedia-owl:occupation ?result",
+        "bezigheid"         : "{?identity dbpedia-owl:occupation ?result} UNION {?identity prop-nl:beroep ?result}",
         "duur"              : "?identity prop-nl:duur ?result",
         "doodsoorzaak"      : "?identity prop-nl:oorzaakDood ?result",
         "budget"            : "?identity prop-nl:budget ?result",
-        "instrument"        : "?identity prop-nl:instrument ?result",
-        "liedjes"           : "?result rdf:type dbpedia-owl:Single. ?result prop-nl:artiest ?identity",
+        "instrument"        : "{?identity prop-nl:instrument ?result} UNION {?identity prop-nl:instrumenten ?result}",
+        "liedjes"           : "?identitys rdf:type dbpedia-owl:Single. ?identity dbpedia-owl:musicalArtist ?result",
         "artiest"           : "?identity prop-nl:artiest ?result",
         "manager"           : "?identity prop-nl:manager ?result",
         "partner"           : "?identity prop-nl:partner ?result",
         "producer"          : "?identity prop-nl:producer ?result",
-        "kinderen"          : "?identity prop-nl:kinderen ?result"
+        "kinderen"          : "?identity prop-nl:kinderen ?result",
+        "land"              : "?identity prop-nl:land ?result",
     }
 
     subrelations = {
@@ -257,8 +258,8 @@ def find_relation(Property):
         "waar oorsprong"    : "oorsprong",
         "waar oprichting"   : "oorsprong",
         "herkomstplaats"    : "oorsprong",
-        "land"              : "oorsprong",
         "roots"             : "oorsprong",
+        "land"              : "land",
         "voormalige leden"  : "voormalige leden",
         "voormalige bandleden":"voormalige leden",
         "voormalige lid"    : "voormalige leden",
@@ -323,6 +324,9 @@ def find_relation(Property):
         "albums uitgegeven" : "albums",
         "albums gemaakt"    : "albums",
         "album band"        : "albums",
+        "debuut album"      : "albums",
+        "debuutalbum"       : "albums",
+        "langeste album"    : "albums",
         "beginjaar"         : "beginjaar",
         "wanneer begonnen"  : "beginjaar",
         "begin datum"       : "beginjaar",
@@ -491,14 +495,11 @@ def countList(completeList):
             NoConcept += 1
         elif question[2] == "No relation":
             NoRelation += 1
-        elif question[2] == "No wikiPageID":
-            NoWikipageID += 1
-    notAnswered = NoRelation + NoConcept + NoWikipageID + NoProperty + NoResult
+    notAnswered = NoRelation + NoConcept + NoProperty + NoResult
     total = len(completeList)
     print("Total: " + str(total) + ". And " + str(total-notAnswered) + " answered.")
     print("No relation: " + str(NoRelation))
     print("No concept: " + str(NoConcept))
-    print("No wikiID: " + str(NoWikipageID))
     print("No property: " + str(NoProperty))
     print("No result: " + str(NoResult))
 
