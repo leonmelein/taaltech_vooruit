@@ -45,11 +45,6 @@ def main(question, anchors):
         print("No Property")
         theList = theList + ["No Property"]
         return theList
-    except NoConceptIDException:
-        # TODO: Meaningful error handling
-        print("No wikiPageID")
-        theList = theList + ["No wikiPageID"]
-        return theList
     except NoPropertyRelationException:
         # TODO: Meaningful error handling
         print("No relation")
@@ -526,11 +521,6 @@ def load_anchors(file):
 # Self-defined exceptions
 class NoConceptException(Exception):
     # In case the concept couldn't be found
-    pass
-
-
-class NoConceptIDException(Exception):
-    # In case the Wikipedia ID of the concept couldn't be found
     pass
 
 
