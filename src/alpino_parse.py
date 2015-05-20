@@ -1,4 +1,5 @@
 # functions used to parse and analyze the given questions
+# also retreive the corresponding wikiPageID for each Concept (/object)
 
 import socket
 from lxml import etree
@@ -63,3 +64,34 @@ def analyze_question(xml):
         raise NoPropertyException
 
     return Concept, Property
+
+def find_resource(Concept, anchors):
+    resource_id = find_wikiID(Concept, anchors)
+    if resource_id is None:
+        resource_id = "?" + Concept
+    return resource_id
+
+def find_wikiID(Concept, anchors):
+    """
+    Probeert het juiste Wikipedia ID bij een bepaald concept te vinden. Gebruikt hiervoor zowel page.csv als
+    anchor_summary.csv.
+
+    :param concept: het concept als string.
+    :return: Wikipedia ID als string.
+    """
+    # TODO: Verkrijg Wikipedia ID met behulp van page.csv én anchor_summary.csv
+    count = 0
+    wikiID = None
+    for row in anchors:
+        if row[0].lower() == Concept.lower():
+            # Get all possible references for the concept
+            possiblePages = (row[1].strip('"')).split(";")
+
+            # Get the ID of the most frequently referenced page
+            wikiIDtemp = (possiblePages[0].split(":"))[0]
+            wikiIDfreq = int((possiblePages[0].split(":"))[1])
+            if wikiIDfreq > count:
+                count = wikiIDfreq
+                wikiID = wikiIDtemp
+
+    return wikiID

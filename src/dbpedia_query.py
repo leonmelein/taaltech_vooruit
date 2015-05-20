@@ -43,6 +43,12 @@ def query(query):
         return None
 
 def resolveRDFS(answer):
+    """
+    Voert een SPARQL-query uit om ipv resource-url een (label)string te krijgen.
+
+    :param answer: de resource-url.
+    :return: het antwoord, er is hier ook maar 1 antwoord mogelijk.
+    """
     query = """
     PREFIX prop-nl: <http://nl.dbpedia.org/property/>
     PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
