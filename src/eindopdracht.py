@@ -77,21 +77,21 @@ def open_file():
     yesOrNo = input("Output-bestand nu openen? (y/n) >> ")
     if "y" in yesOrNo.lower():
 
-    	if sys.platform.startswith('linux'):
-    		try:
-         		subprocess.call(["xdg-open", 'fileout.txt'])
-        	except:	
-         		pass
-        else:
-	        try:
-	            os.system("open "+'fileout.txt')
-	        except:
-	            pass
+	if sys.platform.startswith('linux'):
+		try:
+			subprocess.call(["xdg-open", 'fileout.txt'])
+		except:	
+			pass
+	else:
+		try:
+			os.system("open "+'fileout.txt')
+		except:
+			pass
 
-        try:
-            os.system("start "+'fileout.txt')
-        except:
-            pass
+		try:
+			os.system("start "+'fileout.txt')
+		except:
+			pass
 
 
 def load_anchors(file):
