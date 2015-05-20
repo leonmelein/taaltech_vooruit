@@ -7,6 +7,7 @@ import csv
 import socket
 import sys
 import os
+import subprocess
 
 # functions and classes to run the program
 from find_relation import *
