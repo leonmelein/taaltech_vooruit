@@ -19,7 +19,7 @@ def main(question, anchors):
 
     try:
         Concept, Property = analyze_question(parse)
-
+        print("property: " + Property)
         wikiID = find_resource(Concept, anchors)
 
         if Property[0:7] == "hoeveel":

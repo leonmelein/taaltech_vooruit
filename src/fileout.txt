@@ -1,0 +1,357 @@
+1	Aan wie zijn de Brandenburgse Concerten opgedragen?	No Concept
+2	Bij hoeveel platenmaatschappijen zijn Kaiser Chiefs aangesloten geweest?	No relation
+3	Bij welk label zit Linkin Park?	Warner Bros. Records	Machine Shop Recordings
+4	Bij welke platenmaatschappijen bracht zanger Seal muziek uit?	No Concept
+5	Bij welke recordlabels zit Dream Theater?	Roadrunner Records	Atlantic Records	http://nl.dbpedia.org/resource/Warner_Bros_Records
+6	Binnen welke genres valt de muziek van Arcade Fire?	Alternatieve rock	Indie (muziek)	Artrock
+7	Het werk van welke artiest is beïnvloed door Queen?	No relation
+8	Hoe heet de eerste single van P!nk?	No results
+9	Hoe heet de enige single van de lama's?	No Concept
+10	Hoe heet de gitarist van Queen?	No relation
+11	Hoe heet de officiële website van de band Pearl Jam?	http://www.pearljam.com/
+12	Hoe heet de tweede single die DJ Madeon uitbracht?	No results
+13	Hoe heet het album van Deadmau5 met de beginletter R?	No relation
+14	Hoe heet het debuutalbum van Amon Tobin alias Cujo?	Permutation	Bricolage	Out from Out Where	Adventures in Foam	Supermodified	Foley Room
+15	Hoe heet het eerste album van ABBA?	Voulez-Vous (album)	The Visitors (album)	Super Trouper (album)	The Album (album)	Arrival (album)	Ring Ring (album)	ABBA (album)	Waterloo (album)	The Singles: The First Ten Years	ABBA Gold: Greatest Hits	25 Jaar na Waterloo
+16	Hoe heet het eerste album van Bob Dylan?	Blonde on Blonde (Bob Dylan)	Slow Train Coming	Infidels	Time Out of Mind (Bob Dylan)	Blood on the Tracks	Christmas in the Heart	Highway 61 Revisited	Together Through Life	Desire (Bob Dylan)	Bob Dylan (album)	Tempest (album)
+17	Hoe heet het eerste studioalbum van de popgroep Doe Maar?	No relation
+18	Hoe heet het laatste album van Kanye West?	No relation
+19	Hoe heet het laatste nummer dat RONDE uitbracht?	No Concept
+20	Hoe heet het muzieklabel van DJ Laidback Luke?	No results
+21	Hoe heten de bandleden van Green Day?	Michael Pritchard	Tré Cool	Billie Joe Armstrong	Jason White
+22	Hoe lang bestonden de Beatles?	No Concept
+23	Hoe lang duurt het album Love Lockdown in totaal?	No relation
+24	Hoe lang duurt het nummer 'Bohemian Rhapsody'?	No relation
+25	Hoe luidt de bijnaam van Rihanna?	RiRi
+26	Hoe oud is André Hazes geworden?	No relation
+27	Hoe oud is de fransman Anthony Favier, die onder een andere naam muziek produceert?	No relation
+28	Hoe oud is Jimi Hendrix geworden?	No relation
+29	Hoe oud is Lou Reed geworden?	No relation
+30	Hoe veel albums en EPs heeft Dire Straits uitgebracht?	No Property
+31	Hoe veel nummers heeft Michael Jackson geschreven?	No relation
+32	Hoe wordt Eric Clapton ook wel genoemd?	Slowhand
+33	Hoe ziet de bezetting van The Wombats eruit?	Zanger	Keyboard	Gitarist	Drum/Achtergrondzang	Bas/Achtergrondzang
+34	Hoeveel (studio) albums heeft Arcade Fire uitgebracht?	3
+35	Hoeveel albums bracht de band Radiohead uit?	No Concept
+36	Hoeveel albums heeft Supertramp uitgebracht?	7
+37	Hoeveel albums heeft Tool uitgegeven?	5
+38	Hoeveel genres speelde Yoko Ono?	7
+39	Hoeveel instrumenten kan de bassist van de rockband The Strokes, Nikolai Fraiture, bespelen?	No relation
+40	Hoeveel jaren is Creedence Clearwater Revival actief geweest?	No relation
+41	Hoeveel leden heeft Sum 41?	3
+42	Hoeveel leden van The Beatles leven nog?	4
+43	Hoeveel nummers stonden er op de CD Motion van Calvin Harris?	No relation
+44	Hoeveel singles heeft Ellie Goulding uitgebracht?	No relation
+45	Hoeveel tracks staan er op het album Perfect Animal?	0
+46	Hoeveel volumes van de compilatie-CD Vergeten Pareltjes werden er uitgebracht?	No relation
+47	Hoeveel werken produceerde Mozart in 1984?	No relation
+48	In wat voor band speelde George Michal?	No results
+49	In welk dorpje is Guus Meeuwis geboren?	No results
+50	In welk jaar begon Marco Borsato zijn muziekcarrière?	No relation
+51	In welk jaar bracht John Mayer het album Born and Raised uit?	No relation
+52	In welk jaar bracht Michael Bublé zijn eerste album uit?	No relation
+53	In welk jaar ging de band *NSYNC uit elkaar?	No Concept
+54	In welk jaar gingen de Spice Girls uit elkaar?	1993	2007	2012
+55	In welk jaar heeft Robbie Williams zijn eerste album uitgebracht?	No relation
+56	In welk jaar is de band Imagine Dragons opgericht?	2008
+57	In welk jaar is de Dijk opgericht?	No Concept
+58	In welk jaar is het huidige Nederlandse volkslied ingevoerd?	No Concept
+59	In welk jaar is Muse opgericht?	1994
+60	In welk jaar is Viva La Vida van Coldplay uitgebracht?	No relation
+61	In welk jaar kwam het album Master of Puppets uit van Metallica?	No relation
+62	In welk jaar trad de punkgroep Sex Pistols voor het eerst op?	No relation
+63	In welk jaar verliet Ryan Dusick Maroon 5?	No results
+64	In welk jaar verscheen het album A Night at the Opera van Queen?	No relation
+65	In welk jaar werd Green Day opgericht?	1987
+66	In welk jaar werd het eerste album van Muse uitgebracht?	No relation
+67	In welk jaar werd Justin Bieber actief?	2008
+68	In welk jaar werd The Police opgericht?	1977
+69	In welk jaar zijn The Beatles opgericht?	1960
+70	In welk land is Brian Littrel geboren?	No results
+71	In welk land is Pharrell Williams geboren?	No results
+72	In welk land vindt de band Coldplay zijn oorsprong?	No Concept
+73	In welk land wordt Rock Werchter georganiseerd?	No relation
+74	In welke band speelt Dave Farrell?	Linkin Park
+75	In welke band speelt Gerard Joling?	De Toppers
+76	In welke band speelt Ilse DeLange?	The Common Linnets
+77	In welke band zat Beyonc%C3%A9?	No results
+78	In welke band zat Phil Collins?	Genesis (band)
+79	In welke bands heeft John Frusciante gespeeld?	No relation
+80	In welke bands zit Floor Jansen?	After Forever	Nightwish	ReVamp (band)
+81	In welke genres vallen de nummers van One Direction?	Poprock	Powerpop	Dance-pop	http://nl.dbpedia.org/resource/Teenpop
+82	In welke Nederlandse plaats is Tiësto geboren?	No results
+83	In welke stad is Mariah Carey geboren?	No results
+84	In welke stad zijn The White Stripes opgericht?	Verenigde Staten	Michigan	Detroit (Michigan)
+85	Met welk album werd Amy Winehouse bekend in het Verenigd Koninkrijk?	No relation
+86	Met welk liedje brak Taylor Swift door in Nederland?	No results
+87	Met welke artieste werkte Kelly Clarkson samen in A Moment Like This?	No relation
+88	Met welke platenmaatschappijen heeft John Mayer een contract?	No results
+89	Met wie heeft Rihanna samengewerkt tijdens haar carrière?	No relation
+90	Met wie trouwde Mariah Carey?	No Property
+91	Met wie zong Monteserrat Caballé het nummer Barcelona?	No relation
+92	Noem twee albums van de Engelse band Busted?	No Concept
+93	Onder welk genre valt de band Coldplay?	No Concept
+94	Onder welk genre valt de muziek van Erik van der Hoff?	Popmuziek
+95	Onder welk(e) genre(s) valt de muziek van Jimi Hendrix?	Hardrock	Psychedelische rock	Bluesrock	Funkrock	Acid rock
+96	Onder welke labels is er muziek van Queen uitgebracht?	Capitol Records	Elektra Records	EMI Group	Hollywood Records	Parlophone
+97	Onder welke stijl valt de muziek van Bach?	Barokmuziek
+98	Op welk album van Bob Dylan staat 'Desolation Row'?	No results
+99	Op welk album van de band Coldplay staat The Scientist?	No results
+100	Op welke dag is Michael Jackson overleden?	25-06-2009
+101	Op welke datum is Michael Jackson geboren?	29-08-1958
+102	Op welke datum is Michael Jackson geboren?	29-08-1958
+103	Op welke datum overleed John Denver?	No relation
+104	Op welke datum stierf Frank Sinatra?	No relation
+105	Op welke formaten is de muziek van The Police uitgebracht?	No relation
+106	Op welke leeftijd stierf de Russische zanger die "I am very glad, because I'm finally returning back home" zong?	No relation
+107	Op welke websites kan ik meer informatie vinden over Jay Z?	No relation
+108	Sinds wanneer is Spinvis Actief?	No Property
+109	Sinds welk jaar is Coldplay actief?	1996
+110	Sinds welk jaar zijn de Backstreet Boys actief?	1993
+111	Tot wat voor groep instrumenten kan een Cello geclassificeerd worden?	No Concept
+112	Tot welk genre behoort de muziek van Robbie Williams?	Popmuziek	Rockmuziek	Dancemuziek
+113	Tot welk genre behoort de muziek van Taylor Swift?	Popmuziek	Pop rock	Country music	http://nl.dbpedia.org/resource/Country_pop
+114	Tot welke genres wordt Major Lazer gerekend?	Reggae	Hiphop	Elektronische muziek	Dancehall	Electrohouse	Dubstep	Moombahton
+115	Uit hoeveel ex-leden bestaat de rockband Dire Straits?	9
+116	Uit hoeveel leden bestaat ABBA?	4
+117	Uit hoeveel leden bestaat U2?	4
+118	Uit hoeveel leden bestond Paramore oorspronkelijk?	No relation
+119	Uit hoeveel leden bestond The Beatles?	4
+120	Uit hoeveel muziekanten bestaat de band Doe Maar?	5
+121	Uit welk land komt Architects?	No results
+122	Uit welk land komt Disclosure?	No results
+123	Uit welk land komt Fall Out Boy?	No results
+124	Uit welk land komt Justin Bieber?	No results
+125	Uit welk land kwam The Who?	No results
+126	Uit welke Amerikaanse Staat komt Britney Spears?	No relation
+127	Uit welke leden bestaat The Beatles?	George Harrison	Paul McCartney	Ringo Starr	John Lennon
+128	Uit welke stad komt de band The Script?	No results
+129	Uit welke stad komt Mumford And Sons?	No relation
+130	Van welk genre in Hans Zimmer bekend?	Soundtrack
+131	Van welke albums schreef Billie Joe Armstrong alle teksten?	No relation
+132	Van welke band is Dan Reynolds de zanger?	No relation
+133	Van welke band is het nummer Hey Jude?	No relation
+134	Van welke bands is Peter Green lid geweest?	No relation
+135	Van welke bekende band is Bono de zanger?	No relation
+136	Van wie is het album The Dark Side of the Moon?	No results
+137	Van wie is het nummer Billie Jean?	No relation
+138	Vanaf welk jaar is Alabama Shakes actief?	2009
+139	Voor hoeveel films heeft John Williams tot nu toe de muziek geschreven?	No relation
+140	Voor welke artiesten schreef Lennaert Nijgh liedjes?	No relation
+141	Voor welke films heeft Ludovico Einaudi muziek geschreven?	No relation
+142	Waar is Afrojack geboren?	No results
+143	Waar is Beyonce geboren?	No results
+144	Waar is Eminem geboren?	No results
+145	Waar is Herman Brood overleden?	No relation
+146	Waar komen de Arctic Monkeys vandaan?	Sheffield
+147	Waar komen de Beatles vandaan?	No Concept
+148	Waar komen de leden van Green Day vandaan?	No relation
+149	Waar komt Coldplay orgineel vandaan?	No relation
+150	Waar komt de band Muse oorspronkelijk vandaan?	No Concept
+151	Waar komt de band Pink Floyd vandaan?	Engeland	Cambridge (Engeland)
+152	Waar origineerde Mastodon?	No results
+153	Waar speelden de Beatles voor het eerst?	No Concept
+154	Waar werd Pearl Jam opgericht?	Verenigde Staten	Seattle
+155	Waar werd The Police opgericht?	Londen	Engeland
+156	Waarvoor is de zesde symfonie van Gade geschreven?	No relation
+157	Wanneeer was het laatste optreden van Doe Maar?	No relation
+158	Wanneer begon Every Time I Die?	No relation
+159	Wanneer begon Marco Borsato zijn cariere?	No relation
+160	Wanneer is Chris Martin geboren?	02-03-1977
+161	Wanneer is de band Fleetwood Mac opgericht?	1967
+162	Wanneer is de band Nickelback opgericht?	No Concept
+163	Wanneer is het album Cool Kids van Echosmith gereleased?	No relation
+164	Wanneer is het nummer Bloed, zweet en tranen uitgebracht?	No Concept
+165	Wanneer is het nummer Mrs. Rbbinson van Paul Simon en Art Garfunkel opgenomen?	No relation
+166	Wanneer is het platenlabel Spinnin' Records opgericht?	No Concept
+167	Wanneer is Jack White geboren?	09-07-1975
+168	Wanneer is Jan Smit geboren?	31-12-1985
+169	Wanneer is Johnny Cash overleden?	12-09-2003
+170	Wanneer is Michael Jackson geboren?	29-08-1958
+171	Wanneer is Michael Jackson geboren?	29-08-1958
+172	Wanneer is Mozart geboren en gestorven?	No relation
+173	Wanneer is Ringo Starr jarig?	No relation
+174	Wanneer is Robbie Williams geboren?	13-02-1974
+175	Wanneer is Yann Tiersen geboren?	23-06-1970
+176	Wanneer kwam het album "Sticky Fingers" van The Rolling Stones uit?	No relation
+177	Wanneer kwam het album "Zonder jou" van Jan Smit uit?	No relation
+178	Wanneer overleed Andre Hazes?	No relation
+179	Wanneer overleed Elvis Presley?	No relation
+180	Wanneer overleed Herman Brood?	No relation
+181	Wanneer overleed Kurt Cobain?	No relation
+182	Wanneer overleed Micheal Jackson?	No relation
+183	Wanneer overleed zanger Ray Charles?	No relation
+184	Wanneer werd de band Oasis actief?	No Concept
+185	Wanneer zijn The Beatles gestopt?	No relation
+186	Wanneer zijn The Beatles opgericht?	1960
+187	Wat bespeelde Dick Tailor in "The Rolling Stones"?	No Property
+188	Wat is Beyonc%C3%A9 haar volledige naam?	No Concept
+189	Wat is de bijnaam van de Hollandse zanger Frans Duijts?	No relation
+190	Wat is de bijnaam van Elvis Presley?	The King	The King of Rock	The King of Music
+191	Wat is de bijnaam van Michael Jackson?	King of Pop, Wacko Jacko
+192	Wat is de doodsoorzaak van Kurt Cobain?	No results
+193	Wat is de echte naam van Ellie Goulding?	Elena Jane Goulding
+194	Wat is de echte naam van Eminem?	Marshall Bruce Mathers III
+195	Wat is de echte naam van Fink?	No results
+196	Wat is de echte naam van Jay Z?	Shawn Corey Carter
+197	Wat is de echte naam van Jett Rebel?	Jelte Steven Tuinstra
+198	Wat is de echte naam van Martin Garrix?	Martijn Garritsen
+199	Wat is de echte naam van Stromae?	Paul Van Haver
+200	Wat is de eerste film waarin Nicki Minaj heeft gespeeld?	No relation
+201	Wat is de eerste single van Muse?	No results
+202	Wat is de geboortedatum van Adele?	05-05-1988
+203	Wat is de geboortedatum van Avril Lavigne?	27-09-1984
+204	Wat is de geboortedatum van Beethoven?	17-12-1770
+205	Wat is de geboortedatum van Britney Spears?	02-12-1981
+206	Wat is de geboortedatum van Elvis Presley?	08-01-1935
+207	Wat is de geboortedatum van Enrique Iglesias?	08-05-1975
+208	Wat is de geboortedatum van John Mayer?	16-10-1977
+209	Wat is de geboortedatum van Madonna?	16-08-1958
+210	Wat is de geboortenaam van Akon?	Aliaune Damala Badara Akon Thiam
+211	Wat is de geboortenaam van Madonna?	Madonna Louise Veronica Ciccone
+212	Wat is de geboorteplaats van Guus Meeuwis?	No results
+213	Wat is de gehele naam van Boudewijn de Groot?	Frank Boudewijn de Groot
+214	Wat is de lengte van Child in Time van Deep Purple?	No results
+215	Wat is de naam van de eerste single van U2?	No relation
+216	Wat is de naam van de zangeres die k3 verliet?	No Concept
+217	Wat is de officiële website van One Direction?	http://www.onedirectionmusic.com/
+218	Wat is de site van Rick Astley?	No results
+219	Wat is de speelduur van Last of The American Girls?	No relation
+220	Wat is de titel van de eerste single van The Eagles?	No relation
+221	Wat is de volledige naam van Adele?	Adele Laurie Blue Adkins
+222	Wat is de volledige naam van de artiest Dory Previn?	No relation
+223	Wat is de volledige naam van de zangeres Inna?	No Concept
+224	Wat is de volledige naam van DJ Hardwell?	No results
+225	Wat is de volledige naam van Guus Meeuwis?	Gustaaf Stephanus Modestus Meeuwis
+226	Wat is de volledige naam van Guus Meeuwis?	Gustaaf Stephanus Modestus Meeuwis
+227	Wat is de volledige naam van Jimi Hendrix?	James Marshall Hendrix
+228	Wat is de volledige naam van Thomas Berge?	Chiel Ottink
+229	Wat is de website van 30 Seconds To Mars?	No results
+230	Wat is de zangstem van Mads Langer?	No relation
+231	Wat is een alternatieve naam voor de band one direction?	No relation
+232	Wat is Foals in het Japans?	No relation
+233	Wat is het beroep van Janine Jansen?	Solovioliste
+234	Wat is het beroep van Janine Jansen?	Solovioliste
+235	Wat is het eerste album van Coldplay?	In My Place	Trouble (Coldplay)	X&Y	Parachutes	A Rush of Blood to the Head	God Put a Smile upon Your Face	Don't Panic	Yellow	Safety EP	The Blue Room EP	Speed of Sound (lied)	Brothers & Sisters EP	The Hardest Part	Viva la Vida or Death and All His Friends	LeftRightLeftRightLeft	Mylo Xyloto	Prospekt's March	Glass of Water	Ghost Stories
+236	Wat is het eerste album van Snoop Dogg?	Ego Trippin'	Doggystyle (album)	Doggumentary	Tha Doggfather	Tha Blue Carpet Treatment	R&G (Rhythm & Gangsta): The Masterpiece	Malice n Wonderland	Tha Last Meal	Paid tha Cost to Be da Boss	No Limit Top Dogg	Da Game Is to Be Sold, Not to Be Told
+237	Wat is het genre en de artiest(en) van Lunatic Soul?	Progressieve rock
+238	Wat is het genre van de band Nirvana?	No Concept
+239	Wat is het genre van de muziek van Alanis Morissette?	Rockmuziek
+240	Wat is het jaar waarin Bach is overleden?	28-07-1750
+241	Wat is het kortste nummer van Ed Sheeran?	No relation
+242	Wat is het laatste album van While She Sleeps?	No relation
+243	Wat is het laatste muziekstuk van Bach?	No relation
+244	Wat is het land van oorsprong van The Beatles?	Verenigd Koninkrijk	Liverpool
+245	Wat is Jan Smit zijn volledige naam?	Johannes Hendricus Maria Smit
+246	Wat voor genre is de muziek van Nicky Romero?	Progressive house	Electrohouse
+247	Wat voor genre is Imagine Dragons?	Alternatieve rock	Indie (muziek)
+248	Wat voor Genres muziek maakt Pharrell Williams?	No relation
+249	Wat voor groep is The Flaming Lips?	No relation
+250	Wat voor instrument bespeelt Ludovico Einaudi?	Piano (instrument)
+251	Wat voor soort muziek maakt Jan Smit?	Palingsound	Nederlandstalige muziek
+252	Wat voor soort muziek maakte George Michael?	Popmuziek
+253	Wat waren de platenmaatschappijen waarvoor Coldplay heeft gepubliceerd?	Capitol Records	EMI Group	Parlophone
+254	Wat was de bijnaam van Amy Winehouse?	Queen of soul
+255	Wat was de bijnaam van Elvis Presley?	The King	The King of Rock	The King of Music
+256	Wat was de bijnaam van Johnny Cash?	The Man in Black
+257	Wat was de eerste single die Justin Bieber uitbracht?	No results
+258	Wat was de eerste single van Avicii?	No results
+259	Wat was de volledige naam van Jay-Z?	Shawn Corey Carter
+260	Wat was het eerste album van David Bowie?	The Rise and Fall of Ziggy Stardust and the Spiders from Mars	Hunky Dory	Aladdin Sane	Diamond Dogs (album)	Young Americans (album)	"Heroes"	Scary Monsters (and Super Creeps)	Let's Dance (album van David Bowie)	The Man Who Sold the World (album)	The Next Day
+261	Wat was Queens eerste album?	No Concept
+262	Wat zijn de bijnamen van Elvis Presley?	The King	The King of Rock	The King of Music
+263	Wat zijn de genres van Leonard Cohen?	Rock	Folk	Folkrock
+264	Wat zijn de genres van Leonard Cohen?	Rock	Folk	Folkrock
+265	Wat zijn de leden van de band The Beatles?	George Harrison	Paul McCartney	Ringo Starr	John Lennon
+266	Wat zijn de namen van de vijf leden van One Diretion?	No results
+267	Wat zijn de uitgevers van Jan Smit?	No results
+268	Wat zijn de vervolgen van Lunatic Soul?	No relation
+269	Welk album van Boudewijn de Groot is het vaakst uitgebracht?	No relation
+270	Welk album van Coldplay ontving meerdere muziekprijzen?	No relation
+271	Welk bandlid van Maroon 5 speelt in de film Begin Again?	No relation
+272	Welk genre muziek maakt Paul Elstak?	Techno	Eurodance	Happy Hardcore	Hardcore techno
+273	Welk genre muziek maakte Joan Baez?	Folk
+274	Welk genre speelde Johnny Cash?	Countrymuziek	Rockabilly
+275	Welk genre speelt Coldplay?	Alternatieve rock
+276	Welk instrument bespeelt een bassist?	No Concept
+277	Welk instrument bespeelt Keith Moon?	Drums	Percussie
+278	Welk Instrument bespeelt Roger Waters?	No relation
+279	Welk instrument bespeelt Wibi Soerjadi?	Piano (instrument)
+280	Welk lid van de Bee Gees is nog in leven?	Robin Gibb	Barry Gibb	Maurice Gibb	Colin Petersen	Vince Melouney
+281	Welk liedje heeft Armin van Buuren geschreven?	No results
+282	Welk radiostation presenteert de Top 2000?	No relation
+283	Welke acts zijn verwant aan Iron Maiden?	No relation
+284	Welke albums bracht Good Charlotte uit?	No results
+285	Welke albums hebben de Foo Fighters uitgebracht?	One by One	The Colour and the Shape	There Is Nothing Left to Lose	In Your Honor	Foo Fighters (album)	Five Songs and a Cover	Skin and Bones	Echoes, Silence, Patience & Grace	Greatest Hits (Foo Fighters)	Wasting Light	Medium Rare (Foo Fighters)	Sonic Highways
+286	Welke albums heeft Kayne West uitgebracht voor 2007?	No results
+287	Welke albums heeft Toto gemaakt?	Toto (album)	Hydra (album)	Isolation (album)	The Seventh One	Toto IV	Turn Back	Fahrenheit (album)	Mindfields	Kingdom of Desire	Past to Present 1977-1990	Tambu (album)	Dune (Toto)	Absolutely Live (Toto)	Best Ballads
+288	Welke albums maakten The Beatles?	Sgt. Pepper's Lonely Hearts Club Band	Rubber Soul	Let It Be (album)	Help! (album)	A Hard Day's Night (album)	With the Beatles	Magical Mystery Tour (album)	The Beatles (album)	Yellow Submarine (album)	Abbey Road (album)	Beatles for Sale	Let It Be... Naked	Past Masters, Volume One	Past Masters, Volume Two	Love (album)	Anthology 1	Anthology 2	Live at the BBC (The Beatles)	Anthology 3	1 (The Beatles)	Yellow Submarine Songtrack	1967-1970	The Beatles Stereo Box Set	1962-1966	The Beatles in Mono	Please Please Me (album)	Revolver (The Beatles)
+289	Welke artiest heeft als volledige naam Lesane Parish Crooks?	No results
+290	Welke artiesten hebben getekend bij het label Roc-A-Fella Records?	No relation
+291	Welke artisten brachten samen het nummer Rampeneren uit?	No Concept
+292	Welke band heeft het album El Camino geschreven?	No relation
+293	Welke bands zijn gerelateerd aan Linkin Park?	No relation
+294	Welke bijnamen had Whitney Houston?	Nippy, The Voice
+295	Welke EP's heeft Darius uitgebracht?	No relation
+296	Welke groep heeft het nummer Wonderwall uitgebracht?	No Concept
+297	Welke instrumenten bespeelde Beethoven?	Viool	Piano (instrument)
+298	Welke instrumenten bespeelde Billy Joel?	Gitaar	Mondharmonica	Accordeon	Piano (instrument)	Keyboard
+299	Welke instrumenten bespeelt Avril Lavigne?	Gitaar	Piano (instrument)	Drumstel
+300	Welke instrumenten bespeelt Avril Lavigne?	Gitaar	Piano (instrument)	Drumstel
+301	Welke instrumenten bespeelt Douwe Bob?	Gitaar	Piano (instrument)
+302	Welke instrumenten werden er voornamelijk in Barokmuziek gebruikt?	No relation
+303	Welke LP bracht 'The Academy of Saint Martin in the Field' uit in 1973?	No relation
+304	Welke mannen hebben The Beach Boys opgericht?	No relation
+305	Welke muziekprijs werd in 1962 ingesteld?	No Concept
+306	Welke muziekstijl is kenmerkend voor Louis Armstrong?	Jazz
+307	Welke muzikant is door Coldplay geïnspireerd?	No relation
+308	Welke muziekinstrumenten bespeelde Beethoven?	Viool	Piano (instrument)
+309	Welke Nederlandse artiesten hebben zelfmoord gepleegd?	No Concept
+310	Welke Nederlandse band had in 1971 een hit met het nummer ‘Hocus Pocus’?	No relation
+311	Welke nummers heeft Taylor Swift geschreven?	No relation
+312	Welke personen zaten in de band The Jackson 5?	2001	Michael Jackson	Jermaine Jackson	Tito Jackson	Jackie Jackson	Marlon Jackson	Randy Jackson (The Jacksons)
+313	Welke single bracht Gordon uit in 1991?	No results
+314	Welke single maakte Nielson samen met Miss Montreal?	No results
+315	Welke single van Coldplay is het vaakst gereleased?	No results
+316	Welke singles heeft Avicii geschreven?	No relation
+317	Welke singles heeft OneRepublic uitgebracht?	No relation
+318	Welke zangeres heeft haar artiestennaam te danken aan een nummer van Queen?	No relation
+319	Wie brachten Into the Electric Castle uit?	No Property
+320	Wie componeerde Ode to Joy?	No Property
+321	Wie componeerden de soundtrack van het spel Rayman Legends?	No relation
+322	Wie heeft London Calling geschreven?	No results
+323	Wie is de artiest van het album Paper Walls?	No relation
+324	Wie is de artiest van het album The Wall?	No relation
+325	Wie is de bassist van Linkin Park?	No relation
+326	Wie is de bekendste musicus van Pearl Jam?	No relation
+327	Wie is de producent van de single Hey Brother?	No relation
+328	Wie is de producer van 808s &amp; Heartbreak?	No Concept
+329	Wie is de publisher van Justin Bieber?	No results
+330	Wie is de vocalist van Motorhead?	No relation
+331	Wie is de zanger van "it Was a Very Good Year"?	Frank Sinatra
+332	Wie is de zanger van het nummer Thinking Out Loud?	No relation
+333	Wie is producer van het album Escapology?	No Concept
+334	Wie schreef de hit ‘Behind Blue Eyes’?	No relation
+335	Wie schreef de tekst van Holy Diver?	No relation
+336	Wie schreef het nummer ‘De Verdronken Vlinder’, een hit uit 1970?	No relation
+337	Wie spelen er momenteel allemaal in Metallica?	No relation
+338	Wie waren de leden van de rapformatie Opgezwolle?	No Concept
+339	Wie waren de leden van Pink Floyd?	Syd Barrett	David Gilmour	Nick Mason	Roger Waters	http://nl.dbpedia.org/resource/Bob_Klose	Richard Wright (Pink Floyd)
+340	Wie waren de oprichters van de band Chic?	No Concept
+341	Wie waren voormalig lid van de Beatles?	No Concept
+342	Wie werkten er samen voor het nummer Gold Digger?	No relation
+343	Wie zaten er in Pink Floyd?	No Property
+344	Wie zijn de bandleden van Coldplay?	Chris Martin	Will Champion	Guy Berryman	Jonny Buckland
+345	Wie zijn de bandleden van de Rolling Stones?	No results
+346	Wie zijn de huidige bandleden van The Eagles?	Glenn Frey	Joe Walsh	Don Henley	Timothy Schmit
+347	Wie zijn de huidige leden van normaal?	No Concept
+348	Wie zijn de kinderen van Rudi Carrell?	Carolien, Annemieke en Alexander
+349	Wie zijn de leden van Coldplay?	Chris Martin	Will Champion	Guy Berryman	Jonny Buckland
+350	Wie zijn de leden van de Backstreet Boys?	Brian Littrell	Kevin Richardson	Nick Carter (zanger)	Alexander James McLean	http://nl.dbpedia.org/resource/Howie_Dorough
+351	Wie zijn de leden van de Red Hot Chili Peppers?	No results
+352	Wie zijn de leden van Racoon?	No results
+353	Wie zijn de leden van The Black Eyed Peas?	No results
+354	Wie zijn de schrijvers van het nummer 'I want it that way' van de Backstreet Boys?	No relation
+355	Wie zijn de voormalige leden van BZN?	Dirk van der Horst	Thomas Tol	Anny Schilder	Cees Tol	Jan Veerman (artiest)	Maribelle (zangeres)
+356	Wie zong het nummer "Het Dorp"?	No relation
+357	Wielke singles heeft Mumford &amp; Sons voor 2011 uitgebracht?	No Property
