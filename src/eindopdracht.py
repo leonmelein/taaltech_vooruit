@@ -15,6 +15,7 @@ from exception_classes import *
 from dbpedia_query import *
 from alpino_parse import *
 
+
 def main(question, anchors):
     # Parse and analyze question
     parse = parse_question(question)
@@ -26,7 +27,7 @@ def main(question, anchors):
 
         if Property[0:7] == "hoeveel":
             relation = find_relation(Property[8:])
-            answer = query(construct_query(wikiID, relation,"COUNT(?result)"))
+            answer = query(construct_query(wikiID, relation, "COUNT(?result)"))
         else:
             relation = find_relation(Property)
             answer = query(construct_query(wikiID, relation))
@@ -55,13 +56,15 @@ def main(question, anchors):
         theList = [question] + ["No results"]
         return theList
 
+
 # three helper functions
 def count_list(completeList):
     count = 0
     for question in completeList:
         if question[2] not in ["No results", "No Property", "No Concept", "No relation"]:
             count += 1
-    print("\n" + str(round((count/len(completeList))*100, 2)) + "% answered.")
+    print("\n" + str(round((count / len(completeList)) * 100, 2)) + "% answered.")
+
 
 def write_out(completeList):
     thefile = open('fileout.txt', 'w')
@@ -70,28 +73,29 @@ def write_out(completeList):
         completeList[i] = '\t'.join(completeList[i])
     # writing all the questions with numbers and answers out
     for item in completeList:
-        thefile.write("%s\n" % item)   
+        thefile.write("%s\n" % item)
+
 
 def open_file():
     print("Op Windows en Mac kun je het bestand direct openen!")
     yesOrNo = input("Output-bestand nu openen? (y/n) >> ")
     if "y" in yesOrNo.lower():
 
-	if sys.platform.startswith('linux'):
-		try:
-			subprocess.call(["xdg-open", 'fileout.txt'])
-		except:	
-			pass
-	else:
-		try:
-			os.system("open "+'fileout.txt')
-		except:
-			pass
+        if sys.platform.startswith('linux'):
+            try:
+                subprocess.call(["xdg-open", 'fileout.txt'])
+            except:
+                pass
+        else:
+            try:
+                os.system("open " + 'fileout.txt')
+            except:
+                pass
 
-		try:
-			os.system("start "+'fileout.txt')
-		except:
-			pass
+        try:
+            os.system("start " + 'fileout.txt')
+        except:
+            pass
 
 
 def load_anchors(file):
@@ -99,6 +103,7 @@ def load_anchors(file):
         reader = csv.reader(f)
         anchor = list(reader)
     return anchor
+
 
 if __name__ == "__main__":
     anchors = load_anchors("../anchor_summary.csv")
@@ -123,7 +128,7 @@ if __name__ == "__main__":
         count_list(completeList)
         write_out(completeList)
         open_file()
-        
+
 
     # Check standard input
     elif not sys.stdin.isatty():
@@ -140,23 +145,23 @@ if __name__ == "__main__":
             # Run example questions
             if len(user_question) == 0:
                 questions = ["Wat is de volledige naam van Anouk?",
-                "Wat is de geboortedatum van Dries Roelvink?",
-                "Wie zijn de leden van Muse?",
-                "Wie zijn de voormalige leden van BZN?",
-                "Wat is de website van Rihanna?",
-                "Wat is het genre van Lady Gaga?",
-                "Wat is het beroep van Bono?",
-                "Wat zijn de platenmaatschappijen van de Kaiser Chiefs?",
-                "Wat is de bezetting van The Wombats?",
-                "Wat is de oorsprong van de Arctic Monkeys?",
-                "Geef de website van The Wombats.",
-                "Geef de volledige naam van Anouk.",
-                "Welke genres bedient Lady Gaga?",
-                "Welke leden heeft Muse?",
-                "Wanneer is Dries Roelvink geboren?",
-                "Wanneer is Anouk geboren?",
-                "Hoe zijn The Wombats samengesteld?",
-                "Hoe zijn de Kaiser Chiefs samengesteld?"]
+                             "Wat is de geboortedatum van Dries Roelvink?",
+                             "Wie zijn de leden van Muse?",
+                             "Wie zijn de voormalige leden van BZN?",
+                             "Wat is de website van Rihanna?",
+                             "Wat is het genre van Lady Gaga?",
+                             "Wat is het beroep van Bono?",
+                             "Wat zijn de platenmaatschappijen van de Kaiser Chiefs?",
+                             "Wat is de bezetting van The Wombats?",
+                             "Wat is de oorsprong van de Arctic Monkeys?",
+                             "Geef de website van The Wombats.",
+                             "Geef de volledige naam van Anouk.",
+                             "Welke genres bedient Lady Gaga?",
+                             "Welke leden heeft Muse?",
+                             "Wanneer is Dries Roelvink geboren?",
+                             "Wanneer is Anouk geboren?",
+                             "Hoe zijn The Wombats samengesteld?",
+                             "Hoe zijn de Kaiser Chiefs samengesteld?"]
                 for question in questions:
                     print("\n" + question)
                     main(question, anchors)
