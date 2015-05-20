@@ -75,14 +75,19 @@ def open_file():
     print("Op Windows en Mac kun je het bestand direct openen!")
     yesOrNo = input("Output-bestand nu openen? (y/n) >> ")
     if "y" in yesOrNo.lower():
-        try:
-            os.system("open "+'fileout.txt')
-        except:
-            pass
-        try:
-            os.system("start "+'fileout.txt')
-        except:
-            pass
+
+    	if sys.platform == 'linux2':
+    		subprocess.call(["xdg-open", file])
+    	else:
+	        try:
+	            os.system("open "+'fileout.txt')
+	        except:
+	            pass
+	        try:
+	            os.system("start "+'fileout.txt')
+	        except:
+	            pass
+
 
 def load_anchors(file):
     with open(file, 'r') as f:
