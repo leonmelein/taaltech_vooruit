@@ -6,6 +6,7 @@
 import csv
 import socket
 import sys
+import os
 
 # functions and classes to run the program
 from find_relation import *
@@ -70,6 +71,19 @@ def write_out(completeList):
     for item in completeList:
         thefile.write("%s\n" % item)   
 
+def open_file():
+    print("Op Windows en Mac kun je het bestand direct openen!")
+    yesOrNo = input("Output-bestand nu openen? (y/n) >> ")
+    if "y" in yesOrNo.lower():
+        try:
+            os.system("open "+'fileout.txt')
+        except:
+            pass
+        try:
+            os.system("start "+'fileout.txt')
+        except:
+            pass
+
 def load_anchors(file):
     with open(file, 'r') as f:
         reader = csv.reader(f)
@@ -98,6 +112,8 @@ if __name__ == "__main__":
                 count += 1
         count_list(completeList)
         write_out(completeList)
+        open_file()
+        
 
     # Check standard input
     elif not sys.stdin.isatty():
