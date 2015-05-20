@@ -504,6 +504,15 @@ def countList(completeList):
     print("No property: " + str(NoProperty))
     print("No result: " + str(NoResult))
 
+def writeOut(completeList):
+    thefile = open('fileout.txt', 'w')
+    # create the tabs per question
+    for i in range(len(completeList)):
+        completeList[i] = '\t'.join(completeList[i])
+    # writing all the questions with numbers and answers out
+    for item in completeList:
+        thefile.write("%s\n" % item)   
+
 # Helper functions
 def load_anchors(file):
     with open(file, 'r') as f:
@@ -544,14 +553,19 @@ if __name__ == "__main__":
         completeList = []
         count = 1
         with open(sys.argv[1], 'r') as questions:
-            for question in questions:
+            for row in questions:
+                try:
+                    # if tab seperated values
+                    question = (row.split("\t"))[1]
+                except:
+                    question = row
                 print(question)
                 theList = main(question, anchors)
-                theList = [count] + theList
+                theList = [str(count)] + theList
                 completeList.append(theList)
                 count += 1
-        print(completeList)
         countList(completeList)
+        writeOut(completeList)
 
     # Check standard input
     elif not sys.stdin.isatty():
