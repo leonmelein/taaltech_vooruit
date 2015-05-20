@@ -77,7 +77,7 @@ def open_file():
     if "y" in yesOrNo.lower():
 
     	if sys.platform == 'linux2':
-    		subprocess.call(["xdg-open", file])
+    		subprocess.call(["xdg-open", 'fileout.txt'])
     	else:
 	        try:
 	            os.system("open "+'fileout.txt')
