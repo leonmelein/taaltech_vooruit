@@ -1,50 +1,50 @@
-1	Fout
-2	Fout
+1	Fout	Geen property dbpedia-owl:birthDate op dbpedia pagina.
+2	Fout	Verkeerde relatie uit de zin geanalyseerd, 'wanneer' i.p.v. 'overleed'.
 3	Goed
 4	Goed
 5	Goed
 6	Goed
 7	Volledig goed
 8	Volledig goed
-9	Onvolledig; fout
+9	Onvolledig; fout	De relatie 'geweest lid band' niet opgenomen in subrelations.
 10	Goed
-11	Fout
-12	Fout
+11	Fout	De relatie 'album nummer' niet opgenomen in subrelations.
+12	Fout	De relatie 'artiest album' niet opgenomen in subrelations.
 13	Volledig goed
-14	Fout
+14	Fout	Antwoord verkrijgen niet mogelijk. Relatie 'drummer' niet in programma opgenomen.
 15	Goed
-16	Fout
+16	Fout	Relatie 'jaar' gekoppeld aan property prop-nl:jarenActief in plaats van prop-nl:jaar.
 17	Goed
-18	Fout
+18	Fout	PageID verwijst door, doorverwijspagina probleem.
 19	Goed
 20	Goed
-21	Fout
-22	Fout
+21	Fout	De relatie 'label muziek' niet opgenomen in subrelations.
+22	Fout	Geen proprety uit de zin kunnen analyseren.
 23	Goed
-24	Fout
-25	Fout
+24	Fout	Geen proprety uit de zin kunnen analyseren.
+25	Fout	Geen property prop-nl:artiest op dbpedia pagina. 
 26	Volledig goed
-27	Onvolledig; fout
+27	Onvolledig; fout	Fout in programmacode 'identity' moet 'result' zijn bij relatie 'liedjes'.
 28	Goed
-29	Fout
-30	Fout
+29	Fout	Verkeerde relatie uit de zin geanalyseerd, 'hoe album' i.p.v. 'hoe lang'.
+30	Fout	Antwoord verkrijgen niet mogelijk. Relatie 'bassist' niet in programma opgenomen.
 31	Goed
 32	Volledig goed
 33	Goed
-34	Fout
-35	Fout
-36	Deels fout
+34	Fout	Fout in programmacode 'identity' moet 'result' zijn bij relatie 'liedjes'.
+35	Fout	Verkeerde relatie uit de zin geanalyseerd, 'wanneer' i.p.v. 'overleed'.
+36	Deels fout	Meerdere jaren bij property prop-nl:jarenActief op dbpedia pagina.
 37	Goed
 38	Volledig goed
-39	Fout
+39	Fout	Antwoord verkrijgen niet mogelijk. Relatie 'gitarist' niet in programma opgenomen.
 40	Goed
-41	Fout
-42	Fout
-43	Fout
-44	Fout
-45	Fout
-46	Fout
+41	Fout	De relatie 'zanger bijnaam' niet opgenomen in subrelations.
+42	Fout	PageID verwijst door, doorverwijspagina probleem.
+43	Fout	Geen property prop-nl:artiest op dbpedia pagina. Alleen property 'is prop-nl:artiest of' aanwezig,  daar kan Sparql niets mee.
+44	Fout	Verkeerde relatie uit de zin geanalyseerd, 'waar' i.p.v. 'waar vandaan'.
+45	Fout	Antwoord verkrijgen niet mogelijk. Relatie 'langste nummer' niet in programma opgenomen.
+46	Fout	De WikiPageID 1651511 zoals vermeld in anchor_summary.csv en in page.csv is niet meer actueel.
 47	Goed
-48	Onvolledig; fout
+48	Onvolledig; fout	Geen property prop-nl:instrument op dbpedia pagina.
 49	Goed
 50	Volledig goed
