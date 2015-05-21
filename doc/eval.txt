@@ -1,0 +1,50 @@
+1	Fout
+2	Fout
+3	Goed
+4	Goed
+5	Goed
+6	Goed
+7	Volledig goed
+8	Volledig goed
+9	Onvolledig; fout
+10	Goed
+11	Fout
+12	Fout
+13	Volledig goed
+14	Fout
+15	Goed
+16	Fout
+17	Goed
+18	Fout
+19	Goed
+20	Goed
+21	Fout
+22	Fout
+23	Goed
+24	Fout
+25	Fout
+26	Volledig goed
+27	Onvolledig; fout
+28	Goed
+29	Fout
+30	Fout
+31	Goed
+32	Volledig goed
+33	Goed
+34	Fout
+35	Fout
+36	Deels fout
+37	Goed
+38	Volledig goed
+39	Fout
+40	Goed
+41	Fout
+42	Fout
+43	Fout
+44	Fout
+45	Fout
+46	Fout
+47	Goed
+48	Onvolledig; fout
+49	Goed
+50	Volledig goed
